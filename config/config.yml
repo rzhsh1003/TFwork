@@ -1,0 +1,16 @@
+URL: http://www.baidu.com
+#指定chrome路径，将chromedriver放在Chrome\Application路径下
+Chorme_path: D:\Program Files (x64)\Google\Chrome\Application\
+log:
+    file_name: logs.log
+    backup: 5
+    console_level: WARNING
+    file_level: DEBUG
+    pattern: '[%(levelname)s - %(asctime)s - %(name)s] : %(message)s'
+mail:
+    receiver: test@qq.com
+    server: smtp.test.net
+    sender: test@test.net
+    password: test
+ip: 127.0.0.1
+port: 8080
