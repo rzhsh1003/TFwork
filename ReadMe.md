@@ -24,10 +24,10 @@
     * public(公共方法)
     * report(测试报表)
     * test(测试文件)
-    	** case（测试用例）
-        ** case（api测试用例）
-        ** common（跟项目、页面无关的封装）
-        ** mock(模拟数据)
-        ** page（页面）
+    	* case（测试用例）
+        * case（api测试用例）
+        * common（跟项目、页面无关的封装）
+        * mock(模拟数据)
+        * page（页面）
     	* Run_Tests.py(执行测试)
 
