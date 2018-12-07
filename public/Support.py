@@ -42,6 +42,10 @@ def encrypt(string, salt='', encrypt_way='MD5'):
     return hash_string.hexdigest()
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     print(encrypt('age=19&name=uncle',encrypt_way='MD5'))
     dict_test = {'name':'uncle','age':19}
     print(sign(dict_test,encrypt_way='MD5'))
+=======
+    print(encrypt('100000307111111',encrypt_way='MD5'))
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48

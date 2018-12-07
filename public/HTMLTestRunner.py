@@ -183,7 +183,10 @@ class Template_mixin(object):
 
     DEFAULT_TITLE = 'Unit Test Report'
     DEFAULT_DESCRIPTION = ''
+<<<<<<< HEAD
     DEFAULT_TESTER = 'Uncle'
+=======
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
 
     # ------------------------------------------------------------------------
     # HTML Template
@@ -202,14 +205,22 @@ class Template_mixin(object):
 <script language="javascript" type="text/javascript"><!--
 output_list = Array();
 
+<<<<<<< HEAD
 /* level - 0:Summary; 1:Failed; 2:Pass; 3:All*/
+=======
+/* level - 0:Summary; 1:Failed; 2:All */
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
 function showCase(level) {
     trs = document.getElementsByTagName("tr");
     for (var i = 0; i < trs.length; i++) {
         tr = trs[i];
         id = tr.id;
         if (id.substr(0,2) == 'ft') {
+<<<<<<< HEAD
             if (level == 2 || level == 0 ) {
+=======
+            if (level < 1) {
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
                 tr.className = 'hiddenRow';
             }
             else {
@@ -217,11 +228,19 @@ function showCase(level) {
             }
         }
         if (id.substr(0,2) == 'pt') {
+<<<<<<< HEAD
             if (level < 2) {
                 tr.className = 'hiddenRow';
             }
             else {
                 tr.className = '';
+=======
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
             }
         }
     }
@@ -249,7 +268,10 @@ function showClassDetail(cid, count) {
         if (toHide) {
             document.getElementById('div_'+tid).style.display = 'none'
             document.getElementById(tid).className = 'hiddenRow';
+<<<<<<< HEAD
             document.getElementById(cid).innerText = "详细"
+=======
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
         }
         else {
             document.getElementById(tid).className = '';
@@ -321,8 +343,13 @@ pre         { white-space: pre-wrap;word-wrap: break-word; }
 
 /* -- heading ---------------------------------------------------------------------- */
 h1 {
+<<<<<<< HEAD
     font-size: 16pt;
     color: gray;
+=======
+	font-size: 16pt;
+	color: gray;
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
 }
 .heading {
     margin-top: 0ex;
@@ -427,10 +454,16 @@ a.popup_link:hover {
 
     REPORT_TMPL = u"""
 <div class="btn-group btn-group-sm">
+<<<<<<< HEAD
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ %(passrate)s }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ %(fail)s }</a>
 <a class="btn btn-success" href='javascript:showCase(2)'>通过{ %(Pass)s }</a>
 <a class="btn btn-info" href='javascript:showCase(3)'>所有{ %(count)s }</a>
+=======
+<button class="btn btn-default" onclick='javascript:showCase(0)'>总结</button>
+<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
+<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
 </div>
 <p></p>
 <table id='result_table' class="table table-bordered">
@@ -444,11 +477,19 @@ a.popup_link:hover {
 </colgroup>
 <tr id='header_row'>
     <td>测试套件/测试用例</td>
+<<<<<<< HEAD
     <td>总计</td>
     <td>通过</td>
     <td>失败</td>
     <td>错误</td>
     <td>详细</td>
+=======
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
 </tr>
 %(test_list)s
 <tr id='total_row'>
@@ -457,7 +498,11 @@ a.popup_link:hover {
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
     <td>%(error)s</td>
+<<<<<<< HEAD
     <td>通过率：%(passrate)s</td>
+=======
+    <td>&nbsp;</td>
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
 </tr>
 </table>
 """ # variables: (test_list, count, Pass, fail, error)
@@ -469,7 +514,11 @@ a.popup_link:hover {
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
     <td>%(error)s</td>
+<<<<<<< HEAD
     <td><a href="javascript:showClassDetail('%(cid)s',%(count)s)" class="detail" id='%(cid)s'>详细</a></td>
+=======
+    <td><a href="javascript:showClassDetail('%(cid)s',%(count)s)">详情</a></td>
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
 </tr>
 """ # variables: (style, desc, count, Pass, fail, error, cid)
 
@@ -546,7 +595,10 @@ class _TestResult(TestResult):
         # )
         self.result = []
         self.subtestlist = []
+<<<<<<< HEAD
         self.passrate=float(0)
+=======
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
 
 
     def startTest(self, test):
@@ -668,7 +720,11 @@ class _TestResult(TestResult):
 class HTMLTestRunner(Template_mixin):
     """
     """
+<<<<<<< HEAD
     def __init__(self, stream=sys.stdout, verbosity=1, title=None, description=None,tester=None):
+=======
+    def __init__(self, stream=sys.stdout, verbosity=1, title=None, description=None):
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
         self.stream = stream
         self.verbosity = verbosity
         if title is None:
@@ -679,10 +735,14 @@ class HTMLTestRunner(Template_mixin):
             self.description = self.DEFAULT_DESCRIPTION
         else:
             self.description = description
+<<<<<<< HEAD
         if tester is None:
             self.tester = self.DEFAULT_TESTER
         else:
             self.tester = tester
+=======
+
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
         self.startTime = datetime.datetime.now()
 
 
@@ -719,11 +779,15 @@ class HTMLTestRunner(Template_mixin):
         startTime = str(self.startTime)[:19]
         duration = str(self.stopTime - self.startTime)
         status = []
+<<<<<<< HEAD
         status.append('共 %s' % (result.success_count + result.failure_count + result.error_count))
+=======
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
         if result.success_count: status.append(u'通过 %s'   % result.success_count)
         if result.failure_count: status.append(u'失败 %s'   % result.failure_count)
         if result.error_count:   status.append(u'错误 %s'   % result.error_count  )
         if status:
+<<<<<<< HEAD
             status = '，'.join(status)
             self.passrate = str("%.2f%%" % (float(result.success_count) / float(result.success_count + result.failure_count + result.error_count) * 100))
         else:
@@ -733,6 +797,15 @@ class HTMLTestRunner(Template_mixin):
             (u'开始时间', startTime),
             (u'运行时长', duration),
             (u'测试结果',status + u"，通过率= "+self.passrate),
+=======
+            status = ' '.join(status)
+        else:
+            status = 'none'
+        return [
+            (u'开始时间', startTime),
+            (u'运行时长', duration),
+            (u'状态', status),
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
         ]
 
 
@@ -770,7 +843,10 @@ class HTMLTestRunner(Template_mixin):
             title = saxutils.escape(self.title),
             parameters = ''.join(a_lines),
             description = saxutils.escape(self.description),
+<<<<<<< HEAD
             tester= saxutils.escape(self.tester),
+=======
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
         )
         return heading
 
@@ -814,7 +890,10 @@ class HTMLTestRunner(Template_mixin):
             Pass = str(result.success_count),
             fail = str(result.failure_count),
             error = str(result.error_count),
+<<<<<<< HEAD
             passrate =self.passrate,
+=======
+>>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
         )
         return report
 
