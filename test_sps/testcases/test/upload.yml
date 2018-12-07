@@ -1,0 +1,30 @@
+-   config:
+        name: testset description
+        request:
+            base_url: ''
+            headers:
+                User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                    (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        variables: []
+-   test:
+        name: /backend/public/index.php/api/upload
+        request:
+            data: "------WebKitFormBoundaryk6buAnA4qXENyElX\r\nContent-Disposition:"
+            headers:
+                Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjAxNmFiYjVhMmVjMmI3ODhmOTkyNjAyMTYwNjJmYzdhY2ZmYjc3Y2UxM2Q2ZDBhZjk5YzNhYjczZTEzZTFjMzZiZjk0NTI0OTEwMzE4MTE3In0.eyJhdWQiOiIyIiwianRpIjoiMDE2YWJiNWEyZWMyYjc4OGY5OTI2MDIxNjA2MmZjN2FjZmZiNzdjZTEzZDZkMGFmOTljM2FiNzNlMTNlMWMzNmJmOTQ1MjQ5MTAzMTgxMTciLCJpYXQiOjE1NDIyNDgwOTQsIm5iZiI6MTU0MjI0ODA5NCwiZXhwIjoxNTczNzg0MDk0LCJzdWIiOiIxODUiLCJzY29wZXMiOltdfQ.lZAbcOyWxoFMnUWkfB2RbWxXQXnk2HUKzcDSMTWTRA5nXvKd-FkYACoAk0dxvAIu_nUGJemSJj4maEqgo1HFVES1_yltGb79IRs4rXQeh2RdLfD2pMkS_XHL2Kg0wCyWZHmkmFVvFX0B_1VapMlb-0Hx0cwNgMNzdAjygJE1PXceQZIU-Z_UJlVE4ADsnp5soXxMs1YD7Lbs4Y81vM6Nr1m9xgqQOSblGbtCDu8xKau3zEINNZmV9ppYYOBzqkbBQOdyKmzzvd15aqQaU7lDEDXVGlpj-Gv9Zid71foe9tOR7fVAq0tg30mj93xVYY6HlVMTqVT0dXub32oZSzaXxV7PNWGjUu-0Cdxsy4wBJ41ePEkHa8wAIEFk2uHJqreQlEr2fE4unjS8086iutQ-MrxSgLy0lDg_Ach3gV7z8YAo8TIcnIViq92UE7z9rDmB4rVpESSg3-bPz4U2RCU9h_s67dooqtgAJ0cRddmJ0aCf3Xj3GhyWuaa4OmCpyrfDgspdB8oTWe8nX4xoGIRD5Eqt4dqmCdUeIl1RF7ZeVUqsC6c1a_sLpULufTbCev2JM_WaHLmwO9X_wWM1ESIDq5J1n5lfRwDuZAUendcnPAZ7PRUO7bBMnVoiqLB7xUaTqdaJ-SD-D3NkQ6Zqmqplq7GWVJWJMKjoi5DFZVZttV4
+                Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryk6buAnA4qXENyElX
+            method: POST
+            url: http://test.editor.synative.cn/backend/public/index.php/api/upload
+        validate:
+        -   eq:
+            - status_code
+            - 200
+        -   eq:
+            - headers.Content-Type
+            - application/json
+        -   eq:
+            - content.errorcode
+            - 0
+        -   eq:
+            - content.message
+            - success

@@ -1,0 +1,44 @@
+- api:
+    def: api_basic_login_POST($email,$password,$captcha)
+    request:
+        url: /backend/public/index.php/api/login
+        method: POST
+        json:
+            email: $email
+            password: $password
+            captcha: $captcha
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]
+
+# - api:
+#     def: captcha()
+#     request:
+#         url: /api/captcha
+#         method: POST
+#     validate:
+#         - eq: ["status_code", 200]
+
+# - api:
+#     name: account_refresh($access_token)
+#     request:
+#         url: /backend/public/index.php/api/account_refresh
+#         method: POST
+#         headers:
+#             Authorization: Bearer $access_token
+#     validate:
+#         - eq: ["status_code", 200]
+#         - eq: ["content.message", success]
+#         - eq: ["content.data.email", $email]
+
+# - api:
+#     name: logout($access_token)
+#     request:
+#         url: /backend/public/index.php/api/logout
+#         method: POST
+#         headers:
+#             Authorization: Bearer $access_token
+#     validate:
+#         - eq: ["status_code", 200]
+#         - eq: ["content.message", success]
+            

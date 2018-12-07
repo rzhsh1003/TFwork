@@ -1,0 +1,1195 @@
+id,name,pic,html,html_demo,data,resource,result,percent,platform,channel,video_cut,percent_videos
+2756,Bug-5234,test/video_covers/2018-08-14/155b725ad837a4e4.77962445.jpg," <!doctype html>
+      <html lang=""en"">
+        <head>
+            <title>Bug-5234</title>
+            <meta name=""description"" content=""undefined"">
+            <meta name=""keywords"" content=""undefined"">
+            <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+            <meta name=""format-detection"" content=""telephone=no"" />
+            <meta name=""format-detection"" content=""email=no"" />
+            <meta name=""apple-mobile-web-app-capable"" content=""yes"" />
+            <meta name=""apple-mobile-web-app-status-bar-style"" content=""black"" />
+            <meta http-equiv=""Cache-Control"" content=""no-cache"" />
+            <meta name=""x5-fullscreen"" content=""true"">
+            <meta name=""x5-orientation"" content=""portrait"">
+            <meta name=""x5-page-mode"" content=""app"">
+            <meta charset=""utf-8"">
+            <meta name=""apple-mobile-web-app-capable"" content=""yes"" />
+            <!-- Set render engine for 360 browser -->
+            <meta name=""renderer"" content=""webkit"">
+            <!-- No Baidu Siteapp-->
+
+            <meta http-equiv=""Cache-Control"" content=""no-siteapp"" />
+            <meta name=""viewport"" content=""width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,user-scalable=no,viewport-fit=cover"" />
+            <meta name=""ad.size"" content=""width=667,height=375"" />
+            
+
+            <script>
+              var integrityChecking={};
+              var appConfig={""id"":2756,""isPortrait"":false,""name"":""Bug-5234"",""mute"":true,""playbackRate"":1,""volume"":60,""isPreview"":false,""scenes"":{""sye-component-stage_1"":[{""type"":""sye-component-video"",""id"":""sye-component-video_29"",""events"":{""b7.17"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_29"",""action"":""video,pause""},{""target"":""sye-component-stage_4&sye-component-stage_1"",""targetName"":""Stage3"",""action"":""linktoStage"",""actionName"":""show"",""mark"":8.3}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":0,""end"":7.15,""fpsStart"":0,""fpsEnd"":7.2},""temptAutoplay"":false}],""sye-component-stage_4"":[{""type"":""sye-component-hot"",""id"":""sye-component-hot_18"",""events"":{""click"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-stage_10&sye-component-stage_4"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{""link"":""""},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-hot"",""id"":""sye-component-hot_17"",""events"":{""click"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-stage_8&sye-component-stage_4"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{""link"":""""},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-video"",""id"":""sye-component-video_30"",""events"":{""b13.29"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_30"",""action"":""video,pause""},{""target"":""sye-component-stage_6&sye-component-stage_4"",""targetName"":""Stage4"",""action"":""linktoStage"",""actionName"":""show"",""mark"":14.4}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":7.15,""end"":13.25,""fpsStart"":7.2,""fpsEnd"":13.32},""temptAutoplay"":false}],""sye-component-stage_6"":[{""type"":""sye-component-image"",""id"":""sye-component-image_42"",""events"":{""click"":{""name"":""Tap"",""actions"":[{""target"":""sye-component-stage_1&sye-component-stage_6"",""targetName"":""Starting Stage"",""action"":""linktoStage"",""actionName"":""show""}]}},""isHidden"":true,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-audio"",""id"":""sye-component-audio_26"",""events"":{},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-image"",""id"":""sye-component-image_19"",""events"":{},""isHidden"":true,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-video"",""id"":""sye-component-video_31"",""events"":{""b15.21"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_31"",""action"":""video,pause""},{""target"":""sye-component-image_19"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""isshow,true"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-image_42"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""animate,pulse 1s ease 0s infinite normal forwards running"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":13.25,""end"":15.12,""fpsStart"":13.32,""fpsEnd"":15.24},""temptAutoplay"":false}],""sye-component-stage_8"":[{""type"":""sye-component-video"",""id"":""sye-component-video_9"",""events"":{""b17.49"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_9"",""action"":""video,pause""},{""target"":""sye-component-stage_12&sye-component-stage_8"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":15.12,""end"":17.36,""fpsStart"":15.24,""fpsEnd"":17.52},""temptAutoplay"":false}],""sye-component-stage_10"":[{""type"":""sye-component-video"",""id"":""sye-component-video_11"",""events"":{""b19.69"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_11"",""action"":""video,pause""},{""target"":""sye-component-stage_14&sye-component-stage_10"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":17.36,""end"":19.52,""fpsStart"":17.52,""fpsEnd"":19.72},""temptAutoplay"":false}],""sye-component-stage_12"":[{""type"":""sye-component-hot"",""id"":""sye-component-hot_22"",""events"":{""t3"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-gif_21"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""isshow,false"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-hot_22"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""isshow,false"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-video_13"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""video,play"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{""link"":""""},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-gif"",""id"":""sye-component-gif_21"",""events"":{},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-video"",""id"":""sye-component-video_13"",""events"":{""b27.49"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_13"",""action"":""video,pause""},{""target"":""sye-component-stage_2&sye-component-stage_12"",""targetName"":""Ending Stage"",""action"":""linktoStage"",""actionName"":""show"",""mark"":54.62}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":19.52,""end"":27.28,""fpsStart"":19.72,""fpsEnd"":27.52},""temptAutoplay"":true}],""sye-component-stage_14"":[{""type"":""sye-component-audio"",""id"":""sye-component-audio_27"",""events"":{},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-hot"",""id"":""sye-component-hot_24"",""events"":{""click"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-gif_23"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""isshow,false"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-hot_24"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""isshow,false"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-video_15"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""video,play"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-audio_27"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""video,play"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{""link"":""""},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-gif"",""id"":""sye-component-gif_23"",""events"":{},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-video"",""id"":""sye-component-video_15"",""events"":{""b32.09"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_15"",""action"":""video,pause""},{""target"":""sye-component-stage_2&sye-component-stage_14"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":27.28,""end"":31.82,""fpsStart"":27.52,""fpsEnd"":32.12},""temptAutoplay"":true}],""sye-component-stage_2"":[{""type"":""sye-component-hot"",""id"":""sye-component-hot_41"",""events"":{""click"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-stage_1&sye-component-stage_2"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{""link"":""""},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-image"",""id"":""sye-component-image_40"",""events"":{},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-hot"",""id"":""sye-component-hot_34"",""events"":{},""isHidden"":false,""platformEvent"":{""link"":""http://www.synative.com/page/playableAds.html""},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-image"",""id"":""sye-component-image_39"",""events"":{""no"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-image_39"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""animate,pulse 1s ease 0s infinite normal forwards running"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-audio"",""id"":""sye-component-audio_28"",""events"":{},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":false},{""type"":""sye-component-video"",""id"":""sye-component-video_37"",""events"":{""b36.33"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_37"",""action"":""video,pause""}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":31.82,""end"":36.01,""fpsStart"":32.12,""fpsEnd"":36.36},""temptAutoplay"":false}]}}
+
+              var platformConfig=undefined
+
+              var assets=[{""src"":""./videos/95b72551f7c6770.24781724_fps25.mp4"",""ids"":[""loading_video""],""type"":""sye-component-video""},{""src"":""./images/95b73f527a36869.45162362.png"",""ids"":[""image_sye-component-image_42""],""type"":""sye-component-image""},{""src"":""./audios/15b726cc72ef7c9.72706755.mp3"",""ids"":[""audio_sye-component-audio_26""],""type"":""sye-component-audio""},{""src"":""./images/15b725bdfd2aff2.66592217.png"",""ids"":[""image_sye-component-image_19""],""type"":""sye-component-image""},{""src"":""./gifs/75b7267159691a6.37277860.gif"",""ids"":[""gif_sye-component-gif_21""],""type"":""sye-component-gif""},{""src"":""./audios/25b726d4d01d5a0.18053151.mp3"",""ids"":[""audio_sye-component-audio_27""],""type"":""sye-component-audio""},{""src"":""./gifs/35b7268225fb832.80183806.gif"",""ids"":[""gif_sye-component-gif_23""],""type"":""sye-component-gif""},{""src"":""./images/45b73d6ee1caf62.78391683.png"",""ids"":[""image_sye-component-image_40""],""type"":""sye-component-image""},{""src"":""./images/55b73d69d521fd9.71705352.png"",""ids"":[""image_sye-component-image_39""],""type"":""sye-component-image""},{""src"":""./audios/25b726d67b87af5.19130709.mp3"",""ids"":[""audio_sye-component-audio_28""],""type"":""sye-component-audio""}]
+            </script>
+            
+            
+            <link rel=""stylesheet"" type=""text/css"" href=""./css/client.css""></link>
+
+            
+          </head>
+          <body>
+            <div id=""loading-box-parent"">
+              <div id=""loading-box"" class=""loading-box"">
+                <div class=""line-scale"">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <br />
+                <p class=""export_text"">Loading please wait¡­¡­</p>
+              </div>
+            </div>
+          <div id=""project_innerHtml"">
+
+            <div id=""globalSwitch"" class=""mute-switch"" ></div>
+            <audio id=""bg_music"" src=""./audios/45b726bb8d35f90.97432811.mp3"" preload muted loop style=""position:relative;z-index:-10;""></audio>
+            <div id=""synativeSwiper"" data-platform="""" pages-length=""8"" data-orientation=""false""  class=""synative-swiper"" style=""width:667px;height:375px;background:rgba(255,255,255,1);"">
+      <video id=""loading_video"" src="""" muted preload=""auto"" autoplay preload playsinline style=""width:100%;height:100%;""></video>
+    
+                <div  id=""sye-component-stage_1""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-video_29""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_4""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-hot_18""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:63px;
+    left:437px;
+    width:230px;
+    height:118px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><span class=""icon-ve_Hot-zone"" ></span></div></div><div id=""sye-component-hot_17""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:61px;
+    left:0px;
+    width:230px;
+    height:118px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9998;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><span class=""icon-ve_Hot-zone"" ></span></div></div><div id=""sye-component-video_30""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9997;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_6""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-image_42""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:none;
+    top:147px;
+    left:250px;
+    width:167px;
+    height:63px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><img id=""image_sye-component-image_42"" src=""./images/95b73f527a36869.45162362.png""
+                data-templatesrc=""imageundefined""
+                style=""width:100%;height:100%;"" /></div></div><div id=""sye-component-audio_26""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:-33px;
+    left:0px;
+    width:195px;
+    height:25px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9998;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><audio id=""audio_sye-component-audio_26"" preload playsinline
+                data-templatesrc=""audioundefined""
+                src=""./audios/15b726cc72ef7c9.72706755.mp3""
+                
+                 
+                defaultPlaybackRate=1
+                volume=60 /></div></div><div id=""sye-component-image_19""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:none;
+    top:115px;
+    left:165px;
+    width:317px;
+    height:37px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9997;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><img id=""image_sye-component-image_19"" src=""./images/15b725bdfd2aff2.66592217.png""
+                data-templatesrc=""imageundefined""
+                style=""width:100%;height:100%;"" /></div></div><div id=""sye-component-video_31""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9996;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_8""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-video_9""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_10""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-video_11""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_12""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-hot_22""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:155px;
+    left:251px;
+    width:318px;
+    height:158px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><span class=""icon-ve_Hot-zone"" ></span></div></div><div id=""sye-component-gif_21""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:200px;
+    left:371px;
+    width:200px;
+    height:120px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9998;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><img id=""gif_sye-component-gif_21"" src=""./gifs/75b7267159691a6.37277860.gif""style=""width:100%;height:100%;"" /></div></div><div id=""sye-component-video_13""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9997;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_14""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-audio_27""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:-33px;
+    left:0px;
+    width:195px;
+    height:25px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><audio id=""audio_sye-component-audio_27"" preload playsinline
+                data-templatesrc=""audioundefined""
+                src=""./audios/25b726d4d01d5a0.18053151.mp3""
+                
+                 
+                defaultPlaybackRate=1
+                volume=60 /></div></div><div id=""sye-component-hot_24""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:236px;
+    left:276px;
+    width:120px;
+    height:120px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9998;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><span class=""icon-ve_Hot-zone"" ></span></div></div><div id=""sye-component-gif_23""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:208px;
+    left:239px;
+    width:200px;
+    height:200px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9997;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><img id=""gif_sye-component-gif_23"" src=""./gifs/35b7268225fb832.80183806.gif""style=""width:100%;height:100%;"" /></div></div><div id=""sye-component-video_15""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9996;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_2""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-hot_41""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:272px;
+    left:573px;
+    width:94px;
+    height:103px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><span class=""icon-ve_Hot-zone"" ></span></div></div><div id=""sye-component-image_40""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:334px;
+    left:627px;
+    width:38px;
+    height:38px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9998;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><img id=""image_sye-component-image_40"" src=""./images/45b73d6ee1caf62.78391683.png""
+                data-templatesrc=""imageundefined""
+                style=""width:100%;height:100%;"" /></div></div><div id=""sye-component-hot_34""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:58px;
+    left:191px;
+    width:270px;
+    height:120px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9997;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><span class=""icon-ve_Hot-zone"" ></span></div></div><div id=""sye-component-image_39""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:96px;
+    left:252px;
+    width:166px;
+    height:60px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9996;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><img id=""image_sye-component-image_39"" src=""./images/55b73d69d521fd9.71705352.png""
+                data-templatesrc=""imageundefined""
+                style=""width:100%;height:100%;"" /></div></div><div id=""sye-component-audio_28""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:-33px;
+    left:0px;
+    width:195px;
+    height:25px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9995;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><audio id=""audio_sye-component-audio_28"" preload playsinline
+                data-templatesrc=""audioundefined""
+                src=""./audios/25b726d67b87af5.19130709.mp3""
+                
+                 muted data-tempmute=true
+                defaultPlaybackRate=1
+                volume=60 /></div></div><div id=""sye-component-video_37""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9994;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style=""","<!doctype html>
+      <html lang=""en"">
+        <head>
+            <title>Bug-5234</title>
+            <meta name=""description"" content=""undefined"">
+            <meta name=""keywords"" content=""undefined"">
+            <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+            <meta name=""format-detection"" content=""telephone=no"" />
+            <meta name=""format-detection"" content=""email=no"" />
+            <meta name=""apple-mobile-web-app-capable"" content=""yes"" />
+            <meta name=""apple-mobile-web-app-status-bar-style"" content=""black"" />
+            <meta http-equiv=""Cache-Control"" content=""no-cache"" />
+            <meta name=""x5-fullscreen"" content=""true"">
+            <meta name=""x5-orientation"" content=""portrait"">
+            <meta name=""x5-page-mode"" content=""app"">
+            <meta charset=""utf-8"">
+            <meta name=""apple-mobile-web-app-capable"" content=""yes"" />
+            <!-- Set render engine for 360 browser -->
+            <meta name=""renderer"" content=""webkit"">
+            <!-- No Baidu Siteapp-->
+
+            <meta http-equiv=""Cache-Control"" content=""no-siteapp"" />
+            <meta name=""viewport"" content=""width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,user-scalable=no,viewport-fit=cover"" />
+            <meta name=""ad.size"" content=""width=667,height=375"" />
+            
+
+            <script>
+              var integrityChecking={};
+              var appConfig={""id"":2756,""isPortrait"":false,""name"":""Bug-5234"",""mute"":true,""playbackRate"":1,""volume"":60,""isPreview"":true,""scenes"":{""sye-component-stage_1"":[{""type"":""sye-component-video"",""id"":""sye-component-video_29"",""events"":{""b8.3"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_29"",""action"":""video,pause""},{""target"":""sye-component-stage_4&sye-component-stage_1"",""targetName"":""Stage3"",""action"":""linktoStage"",""actionName"":""show"",""mark"":8.3}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":1.15,""end"":8.3,""fpsStart"":1.15,""fpsEnd"":8.3},""temptAutoplay"":false}],""sye-component-stage_4"":[{""type"":""sye-component-hot"",""id"":""sye-component-hot_18"",""events"":{""click"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-stage_10&sye-component-stage_4"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{""link"":""""},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-hot"",""id"":""sye-component-hot_17"",""events"":{""click"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-stage_8&sye-component-stage_4"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{""link"":""""},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-video"",""id"":""sye-component-video_30"",""events"":{""b14.4"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_30"",""action"":""video,pause""},{""target"":""sye-component-stage_6&sye-component-stage_4"",""targetName"":""Stage4"",""action"":""linktoStage"",""actionName"":""show"",""mark"":14.4}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":8.3,""end"":14.4,""fpsStart"":8.3,""fpsEnd"":14.4},""temptAutoplay"":false}],""sye-component-stage_6"":[{""type"":""sye-component-image"",""id"":""sye-component-image_42"",""events"":{""click"":{""name"":""Tap"",""actions"":[{""target"":""sye-component-stage_1&sye-component-stage_6"",""targetName"":""Starting Stage"",""action"":""linktoStage"",""actionName"":""show""}]}},""isHidden"":true,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-audio"",""id"":""sye-component-audio_26"",""events"":{},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-image"",""id"":""sye-component-image_19"",""events"":{},""isHidden"":true,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-video"",""id"":""sye-component-video_31"",""events"":{""b25.1"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_31"",""action"":""video,pause""},{""target"":""sye-component-image_19"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""isshow,true"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-image_42"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""animate,pulse 1s ease 0s infinite normal forwards running"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":23.23,""end"":25.1,""fpsStart"":23.23,""fpsEnd"":25.1},""temptAutoplay"":false}],""sye-component-stage_8"":[{""type"":""sye-component-video"",""id"":""sye-component-video_9"",""events"":{""b18.69"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_9"",""action"":""video,pause""},{""target"":""sye-component-stage_12&sye-component-stage_8"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":16.45,""end"":18.69,""fpsStart"":16.45,""fpsEnd"":18.69},""temptAutoplay"":false}],""sye-component-stage_10"":[{""type"":""sye-component-video"",""id"":""sye-component-video_11"",""events"":{""b22.26"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_11"",""action"":""video,pause""},{""target"":""sye-component-stage_14&sye-component-stage_10"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":20.1,""end"":22.26,""fpsStart"":20.1,""fpsEnd"":22.26},""temptAutoplay"":false}],""sye-component-stage_12"":[{""type"":""sye-component-hot"",""id"":""sye-component-hot_22"",""events"":{""t3"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-gif_21"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""isshow,false"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-hot_22"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""isshow,false"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-video_13"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""video,play"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{""link"":""""},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-gif"",""id"":""sye-component-gif_21"",""events"":{},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-video"",""id"":""sye-component-video_13"",""events"":{""b54.62"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_13"",""action"":""video,pause""},{""target"":""sye-component-stage_2&sye-component-stage_12"",""targetName"":""Ending Stage"",""action"":""linktoStage"",""actionName"":""show"",""mark"":54.62}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":46.86,""end"":54.62,""fpsStart"":46.86,""fpsEnd"":54.62},""temptAutoplay"":true}],""sye-component-stage_14"":[{""type"":""sye-component-audio"",""id"":""sye-component-audio_27"",""events"":{},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-hot"",""id"":""sye-component-hot_24"",""events"":{""click"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-gif_23"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""isshow,false"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-hot_24"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""isshow,false"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-video_15"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""video,play"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-audio_27"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""video,play"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{""link"":""""},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-gif"",""id"":""sye-component-gif_23"",""events"":{},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-video"",""id"":""sye-component-video_15"",""events"":{""b40.98"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_15"",""action"":""video,pause""},{""target"":""sye-component-stage_2&sye-component-stage_14"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":36.44,""end"":40.98,""fpsStart"":36.44,""fpsEnd"":40.98},""temptAutoplay"":true}],""sye-component-stage_2"":[{""type"":""sye-component-hot"",""id"":""sye-component-hot_41"",""events"":{""click"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-stage_1&sye-component-stage_2"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{""link"":""""},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-image"",""id"":""sye-component-image_40"",""events"":{},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-hot"",""id"":""sye-component-hot_34"",""events"":{},""isHidden"":false,""platformEvent"":{""link"":""http://www.synative.com/page/playableAds.html""},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-image"",""id"":""sye-component-image_39"",""events"":{""no"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-image_39"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""animate,pulse 1s ease 0s infinite normal forwards running"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":true},{""type"":""sye-component-audio"",""id"":""sye-component-audio_28"",""events"":{},""isHidden"":false,""platformEvent"":{},""mark"":null,""temptAutoplay"":false},{""type"":""sye-component-video"",""id"":""sye-component-video_37"",""events"":{""b60.61"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_37"",""action"":""video,pause""}]}},""isHidden"":false,""platformEvent"":{},""mark"":{""start"":56.42,""end"":60.61,""fpsStart"":56.42,""fpsEnd"":60.61},""temptAutoplay"":false}]}}
+
+              var platformConfig=undefined
+
+              var assets=[{""src"":""http://d3ljqgx1ze2ak9.cloudfront.net/test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""ids"":[""loading_video""],""type"":""sye-component-video""},{""src"":""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-15/15/95b73f527a36869.45162362.png"",""ids"":[""image_sye-component-image_42""],""type"":""sye-component-image""},{""src"":""http://d3ljqgx1ze2ak9.cloudfront.net/test/audios/2018-08-14/15/15b726cc72ef7c9.72706755.mp3"",""ids"":[""audio_sye-component-audio_26""],""type"":""sye-component-audio""},{""src"":""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-14/15/15b725bdfd2aff2.66592217.png"",""ids"":[""image_sye-component-image_19""],""type"":""sye-component-image""},{""src"":""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-14/15/75b7267159691a6.37277860.gif"",""ids"":[""gif_sye-component-gif_21""],""type"":""sye-component-gif""},{""src"":""http://d3ljqgx1ze2ak9.cloudfront.net/test/audios/2018-08-14/15/25b726d4d01d5a0.18053151.mp3"",""ids"":[""audio_sye-component-audio_27""],""type"":""sye-component-audio""},{""src"":""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-14/15/35b7268225fb832.80183806.gif"",""ids"":[""gif_sye-component-gif_23""],""type"":""sye-component-gif""},{""src"":""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-15/15/45b73d6ee1caf62.78391683.png"",""ids"":[""image_sye-component-image_40""],""type"":""sye-component-image""},{""src"":""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-15/15/55b73d69d521fd9.71705352.png"",""ids"":[""image_sye-component-image_39""],""type"":""sye-component-image""},{""src"":""http://d3ljqgx1ze2ak9.cloudfront.net/test/audios/2018-08-14/15/25b726d67b87af5.19130709.mp3"",""ids"":[""audio_sye-component-audio_28""],""type"":""sye-component-audio""}]
+            </script>
+            
+            
+            <link rel=""stylesheet"" type=""text/css"" href=""http://test.editor.synative.com/editor//static/css/client.css""></link>
+
+            
+          </head>
+          <body>
+            <div id=""loading-box-parent"">
+              <div id=""loading-box"" class=""loading-box"">
+                <div class=""line-scale"">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <br />
+                <p class=""export_text"">Loading please wait¡­¡­</p>
+              </div>
+            </div>
+          <div id=""project_innerHtml"">
+
+            <div id=""globalSwitch"" class=""mute-switch"" ></div>
+            <audio id=""bg_music"" src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/audios/2018-08-14/15/45b726bb8d35f90.97432811.mp3"" preload muted loop style=""position:relative;z-index:-10;""></audio>
+            <div id=""synativeSwiper"" data-platform="""" pages-length=""8"" data-orientation=""false""  class=""synative-swiper"" style=""width:667px;height:375px;background:rgba(255,255,255,1);"">
+      <video id=""loading_video"" src="""" muted preload=""auto"" autoplay preload playsinline style=""width:100%;height:100%;display:none;""></video>
+    
+                <div  id=""sye-component-stage_1""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-video_29""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><video id=""video_sye-component-video_29""
+                      data-templatesrc=""""
+                      style=""width:100%;height:100%;background-position:center center;background-repeat:no-repeat;"" preload playsinline
+                      data-mark=""%7B%22start%22%3A1.15%2C%22end%22%3A8.3%7D""
+                      src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"" autoplay
+                      muted  defaultPlaybackRate=1 volume=60 /></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_4""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-hot_18""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:63px;
+    left:437px;
+    width:230px;
+    height:118px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><span class=""icon-ve_Hot-zone"" ></span></div></div><div id=""sye-component-hot_17""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:61px;
+    left:0px;
+    width:230px;
+    height:118px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9998;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><span class=""icon-ve_Hot-zone"" ></span></div></div><div id=""sye-component-video_30""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9997;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><video id=""video_sye-component-video_30""
+                      data-templatesrc=""""
+                      style=""width:100%;height:100%;background-position:center center;background-repeat:no-repeat;"" preload playsinline
+                      data-mark=""%7B%22start%22%3A8.3%2C%22end%22%3A14.4%7D""
+                      src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"" autoplay
+                      muted  defaultPlaybackRate=1 volume=60 /></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_6""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-image_42""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:none;
+    top:147px;
+    left:250px;
+    width:167px;
+    height:63px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><img id=""image_sye-component-image_42"" src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-15/15/95b73f527a36869.45162362.png""
+                data-templatesrc=""""
+                style=""width:100%;height:100%;"" /></div></div><div id=""sye-component-audio_26""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:-33px;
+    left:0px;
+    width:195px;
+    height:25px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9998;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><audio id=""audio_sye-component-audio_26"" preload playsinline
+                data-templatesrc=""""
+                src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/audios/2018-08-14/15/15b726cc72ef7c9.72706755.mp3""
+                
+                 
+                defaultPlaybackRate=1
+                volume=60 /></div></div><div id=""sye-component-image_19""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:none;
+    top:115px;
+    left:165px;
+    width:317px;
+    height:37px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9997;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><img id=""image_sye-component-image_19"" src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-14/15/15b725bdfd2aff2.66592217.png""
+                data-templatesrc=""""
+                style=""width:100%;height:100%;"" /></div></div><div id=""sye-component-video_31""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9996;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><video id=""video_sye-component-video_31""
+                      data-templatesrc=""""
+                      style=""width:100%;height:100%;background-position:center center;background-repeat:no-repeat;"" preload playsinline
+                      data-mark=""%7B%22start%22%3A23.23%2C%22end%22%3A25.1%7D""
+                      src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"" autoplay
+                      muted  defaultPlaybackRate=1 volume=60 /></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_8""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-video_9""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><video id=""video_sye-component-video_9""
+                      data-templatesrc=""""
+                      style=""width:100%;height:100%;background-position:center center;background-repeat:no-repeat;"" preload playsinline
+                      data-mark=""%7B%22start%22%3A16.45%2C%22end%22%3A18.69%7D""
+                      src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"" autoplay
+                      muted  defaultPlaybackRate=1 volume=60 /></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_10""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-video_11""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><video id=""video_sye-component-video_11""
+                      data-templatesrc=""""
+                      style=""width:100%;height:100%;background-position:center center;background-repeat:no-repeat;"" preload playsinline
+                      data-mark=""%7B%22start%22%3A20.1%2C%22end%22%3A22.26%7D""
+                      src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"" autoplay
+                      muted  defaultPlaybackRate=1 volume=60 /></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_12""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-hot_22""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:155px;
+    left:251px;
+    width:318px;
+    height:158px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><span class=""icon-ve_Hot-zone"" ></span></div></div><div id=""sye-component-gif_21""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:200px;
+    left:371px;
+    width:200px;
+    height:120px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9998;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><img id=""gif_sye-component-gif_21"" src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-14/15/75b7267159691a6.37277860.gif""style=""width:100%;height:100%;"" /></div></div><div id=""sye-component-video_13""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9997;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><video id=""video_sye-component-video_13""
+                      data-templatesrc=""""
+                      style=""width:100%;height:100%;background-position:center center;background-repeat:no-repeat;"" preload playsinline
+                      data-mark=""%7B%22start%22%3A46.86%2C%22end%22%3A54.62%7D""
+                      src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"" autoplay data-tempautoplay='true'
+                        defaultPlaybackRate=1 volume=60 /></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_14""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-audio_27""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:-33px;
+    left:0px;
+    width:195px;
+    height:25px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9999;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><audio id=""audio_sye-component-audio_27"" preload playsinline
+                data-templatesrc=""""
+                src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/audios/2018-08-14/15/25b726d4d01d5a0.18053151.mp3""
+                
+                 
+                defaultPlaybackRate=1
+                volume=60 /></div></div><div id=""sye-component-hot_24""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:236px;
+    left:276px;
+    width:120px;
+    height:120px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9998;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><span class=""icon-ve_Hot-zone"" ></span></div></div><div id=""sye-component-gif_23""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:208px;
+    left:239px;
+    width:200px;
+    height:200px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9997;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><img id=""gif_sye-component-gif_23"" src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-14/15/35b7268225fb832.80183806.gif""style=""width:100%;height:100%;"" /></div></div><div id=""sye-component-video_15""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:0px;
+    left:0px;
+    width:667px;
+    height:375px;
+    border-radius:undefined%;
+    opacity:1;
+    z-index:9996;
+    background-color:undefined;
+    undefined;
+    undefined;
+    transform:rotateZ(0deg) translate3d(0,0,0);
+    -ms-transform:rotateZ(0deg) translate3d(0,0,0);
+    -moz-transform:rotateZ(0deg) translate3d(0,0,0);
+    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);
+    -o-transform:rotateZ(0deg) translate3d(0,0,0);
+    "">
+            <div class=""element"" style="""" ><video id=""video_sye-component-video_15""
+                      data-templatesrc=""""
+                      style=""width:100%;height:100%;background-position:center center;background-repeat:no-repeat;"" preload playsinline
+                      data-mark=""%7B%22start%22%3A36.44%2C%22end%22%3A40.98%7D""
+                      src=""http://d3ljqgx1ze2ak9.cloudfront.net/test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"" autoplay data-tempautoplay='true'
+                        defaultPlaybackRate=1 volume=60 /></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div  id=""sye-component-stage_2""  class=""synative-swiper-page"">
+                    <div data-noSwiper=""noSwiper"" class=""synative-swiper-pageinner noSwiper"">
+                        <div class=""synative-swiper-layers"" id=""synative_layers_wrapper"">
+                        <div id=""sye-component-hot_41""
+
+            class=""layer sye-display-component""
+            style=""
+    position:absolute;
+    display:block;
+    top:272px;
+    left:573px;
+    width:94px;
+    height:103px;
+    bo","{""id"":2756,""resources"":{""videos"":[{""id"":""video-clip-1534219601258"",""thumbnail"":""test/video_covers/2018-08-14/155b725ad837a4e4.77962445.jpg"",""start"":1.1500000000000001,""name"":""Prologue"",""end"":8.3,""needsUpdateThumbnail"":true,""uuid"":""31A9C24F-EEB0-00D9-5B0D-93EF8F28F145"",""owner"":15,""url"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""cover"":""test/video_covers/2018-08-14/155b72551e36a606.42376878.jpg"",""size"":""2.97MB"",""duration"":""63.72"",""fps"":25,""fps_status"":1,""status"":1,""created_at"":""2018-08-14 04:06:33"",""updated_at"":null,""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""srcId"":2026,""srcName"":""IVEÔ¤Éè°¸ÀýÖÕ¸å.mp4"",""type"":""video""},{""id"":""video-clip-1534219796735"",""thumbnail"":""test/video_covers/2018-08-15/155b739b374dba44.26939004.jpg"",""start"":8.3,""name"":""Choose"",""end"":14.399999999999999,""needsUpdateThumbnail"":true,""srcId"":2026,""type"":""video"",""srcName"":""IVEÔ¤Éè°¸ÀýÖÕ¸å.mp4"",""cover"":""test/video_covers/2018-08-14/155b72551e36a606.42376878.jpg"",""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""url"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""fps"":25},{""id"":""video-clip-1534219881280"",""thumbnail"":""test/video_covers/2018-08-14/155b725ad817f6a1.23083553.jpg"",""start"":23.226000000000003,""name"":""Fall"",""end"":25.099999999999998,""needsUpdateThumbnail"":true,""srcId"":2026,""type"":""video"",""srcName"":""IVEÔ¤Éè°¸ÀýÖÕ¸å.mp4"",""cover"":""test/video_covers/2018-08-14/155b72551e36a606.42376878.jpg"",""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""url"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""fps"":25},{""id"":""video-clip-1534220100065"",""thumbnail"":""test/video_covers/2018-08-14/155b725ad820ad41.32342946.jpg"",""start"":16.448,""name"":""Slide Left"",""end"":18.688,""needsUpdateThumbnail"":true,""srcId"":2026,""type"":""video"",""srcName"":""IVEÔ¤Éè°¸ÀýÖÕ¸å.mp4"",""cover"":""test/video_covers/2018-08-14/155b72551e36a606.42376878.jpg"",""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""url"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""fps"":25},{""id"":""video-clip-1534220244959"",""thumbnail"":""test/video_covers/2018-08-14/155b725ad829ca90.90454405.jpg"",""start"":20.104,""name"":""Slide Right"",""end"":22.264,""needsUpdateThumbnail"":true,""srcId"":2026,""type"":""video"",""srcName"":""IVEÔ¤Éè°¸ÀýÖÕ¸å.mp4"",""cover"":""test/video_covers/2018-08-14/155b72551e36a606.42376878.jpg"",""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""url"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""fps"":25},{""id"":""video-clip-1534220376591"",""thumbnail"":""test/video_covers/2018-08-14/155b725ad845a074.23085176.jpg"",""start"":46.85999999999999,""name"":""Fire circle"",""end"":54.624,""needsUpdateThumbnail"":true,""srcId"":2026,""type"":""video"",""srcName"":""IVEÔ¤Éè°¸ÀýÖÕ¸å.mp4"",""cover"":""test/video_covers/2018-08-14/155b72551e36a606.42376878.jpg"",""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""url"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""fps"":25},{""id"":""video-clip-1534220602503"",""thumbnail"":""test/video_covers/2018-08-14/155b725ade265678.45615913.jpg"",""start"":36.444,""name"":""Drum"",""end"":40.98,""needsUpdateThumbnail"":true,""srcId"":2026,""type"":""video"",""srcName"":""IVEÔ¤Éè°¸ÀýÖÕ¸å.mp4"",""cover"":""test/video_covers/2018-08-14/155b72551e36a606.42376878.jpg"",""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""url"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""fps"":25},{""id"":""video-clip-1534220745414"",""thumbnail"":""test/video_covers/2018-08-14/155b725ae10fc9a6.21211461.jpg"",""start"":56.424,""name"":""Curtain call"",""end"":60.60999999999999,""needsUpdateThumbnail"":true,""srcId"":2026,""type"":""video"",""srcName"":""IVEÔ¤Éè°¸ÀýÖÕ¸å.mp4"",""cover"":""test/video_covers/2018-08-14/155b72551e36a606.42376878.jpg"",""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""url"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""fps"":25}],""images"":[{""name"":""image-clip-4"",""url"":""test/images/2018-08-15/15/95b73f527a36869.45162362.png"",""size"":""15.80KB"",""owner"":15,""status"":1,""created_at"":""2018-08-15 09:40:56"",""id"":""image-clip-1534326054731"",""src"":""test/images/2018-08-15/15/95b73f527a36869.45162362.png"",""srcName"":""Restart3.png"",""type"":""img""},{""name"":""image-clip-3"",""url"":""test/images/2018-08-15/15/45b73d6ee1caf62.78391683.png"",""size"":""9.11KB"",""owner"":15,""status"":1,""created_at"":""2018-08-15 07:31:58"",""id"":""image-clip-1534318316995"",""src"":""test/images/2018-08-15/15/45b73d6ee1caf62.78391683.png"",""srcName"":""Restart2.png"",""type"":""img""},{""name"":""image-clip-2"",""url"":""test/images/2018-08-15/15/55b73d69d521fd9.71705352.png"",""size"":""101.88KB"",""owner"":15,""status"":1,""created_at"":""2018-08-15 07:30:38"",""id"":""image-clip-1534318236615"",""src"":""test/images/2018-08-15/15/55b73d69d521fd9.71705352.png"",""srcName"":""Enjoy More (2).png"",""type"":""img""},{""name"":""image-clip-2"",""url"":""test/images/2018-08-15/15/35b73cac19509a2.82985151.png"",""size"":""95.02KB"",""owner"":15,""status"":1,""created_at"":""2018-08-15 06:40:02"",""id"":""image-clip-1534315200940"",""src"":""test/images/2018-08-15/15/35b73cac19509a2.82985151.png"",""srcName"":""Restart.png"",""type"":""img""},{""name"":""image-clip-0"",""url"":""test/images/2018-08-14/15/15b725bdfd2aff2.66592217.png"",""size"":""3.83KB"",""owner"":15,""status"":1,""created_at"":""2018-08-14 04:34:40"",""id"":""image-clip-1534221280751"",""src"":""test/images/2018-08-14/15/15b725bdfd2aff2.66592217.png"",""srcName"":""±íÑÝÊ§°Ü.png"",""type"":""img""}],""gifs"":[{""name"":""gif-clip-1"",""url"":""test/images/2018-08-14/15/35b7268225fb832.80183806.gif"",""size"":""406.97KB"",""owner"":15,""status"":1,""created_at"":""2018-08-14 05:27:00"",""id"":""gif-clip-1534224420681"",""src"":""test/images/2018-08-14/15/35b7268225fb832.80183806.gif"",""srcName"":""ÊÖÖ¸.gif"",""type"":""gif""},{""name"":""gif-clip-0"",""url"":""test/images/2018-08-14/15/75b7267159691a6.37277860.gif"",""size"":""437.43KB"",""owner"":15,""status"":1,""created_at"":""2018-08-14 05:22:31"",""id"":""gif-clip-1534224151817"",""src"":""test/images/2018-08-14/15/75b7267159691a6.37277860.gif"",""srcName"":""Ô¤ºÏ³É-2.gif"",""type"":""gif""}],""audios"":[{""name"":""audio-clip-3"",""url"":""test/audios/2018-08-15/15/15b739d11123bf6.76627417.wav"",""size"":""199.50KB"",""owner"":15,""status"":1,""created_at"":""2018-08-15 03:25:06"",""id"":""audio-clip-1534303504651"",""src"":""test/audios/2018-08-15/15/15b739d11123bf6.76627417.wav"",""srcName"":""Slide.wav"",""type"":""audio""},{""name"":""audio-clip-2"",""url"":""test/audios/2018-08-14/15/25b726d67b87af5.19130709.mp3"",""size"":""50.82KB"",""owner"":15,""status"":1,""created_at"":""2018-08-14 05:49:28"",""id"":""audio-clip-1534225768932"",""src"":""test/audios/2018-08-14/15/25b726d67b87af5.19130709.mp3"",""srcName"":""Cheer.mp3"",""type"":""audio""},{""name"":""audio-clip-1"",""url"":""test/audios/2018-08-14/15/25b726d4d01d5a0.18053151.mp3"",""size"":""87.51KB"",""owner"":15,""status"":1,""created_at"":""2018-08-14 05:49:02"",""id"":""audio-clip-1534225742312"",""src"":""test/audios/2018-08-14/15/25b726d4d01d5a0.18053151.mp3"",""srcName"":""Drum.mp3"",""type"":""audio""},{""name"":""audio-clip-0"",""url"":""test/audios/2018-08-14/15/15b726cc72ef7c9.72706755.mp3"",""size"":""22.57KB"",""owner"":15,""status"":1,""created_at"":""2018-08-14 05:46:48"",""id"":""audio-clip-1534225608284"",""src"":""test/audios/2018-08-14/15/15b726cc72ef7c9.72706755.mp3"",""srcName"":""Click.mp3"",""type"":""audio""}]},""bgMusic"":""test/audios/2018-08-14/15/45b726bb8d35f90.97432811.mp3"",""bgSrcId"":380,""musicName"":""Music.mp3"",""name"":""Bug-5234"",""boundingStyle"":""width:667+'px',height:375+'px',background:rgba(255,255,255,1)"",""isPortial"":false,""numSceneCreated"":8,""numComponentCreated"":44,""scenes"":[{""props"":{""id"":""sye-component-stage_1"",""alias"":""stage_1"",""type"":""sye-component-stage"",""selected"":false,""style"":{""top"":0,""left"":0,""width"":375,""height"":667,""rotate"":0,""opacity"":1,""backgroundImage"":""""},""animationConfigs"":[],""resizeable"":false,""moveable"":false,""rotateable"":false,""copyable"":false,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":0,""isTriggerStage"":false,""isEditing"":false,""ueevent"":{},""targets"":[],""selectAble"":false},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:0px;\n    left:0px;\n    width:375px;\n    height:667px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:0;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    "",""children"":[{""props"":{""id"":""sye-component-video_29"",""alias"":""Prologue"",""type"":""sye-component-video"",""selected"":false,""style"":{""left"":0,""top"":0,""width"":667,""height"":375,""opacity"":1,""rotate"":0,""transform"":""translate3d(0,0,0) rotateZ(0deg)""},""animationConfigs"":[],""resizeable"":true,""moveable"":true,""rotateable"":true,""copyable"":false,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":9999,""isTriggerStage"":true,""isEditing"":false,""ueevent"":{""b8.3"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_29"",""action"":""video,pause""},{""target"":""sye-component-stage_4&sye-component-stage_1"",""targetName"":""Stage3"",""action"":""linktoStage"",""actionName"":""show"",""mark"":8.3}]}},""targets"":[{""id"":""target1534302909505"",""start"":{""left"":427,""top"":415.5},""end"":{""left"":215,""top"":318},""isEditing"":false,""isTemp"":false,""width"":233.34577347790125,""isActive"":false,""angel"":205,""currentScene"":{""id"":""1""},""target"":{""type"":""scene"",""id"":""3""},""ueevent"":{""video,end"":{""name"":""Stop"",""actions"":[{""target"":""sye-component-stage_4&sye-component-stage_1"",""targetName"":""Stage3"",""action"":""linktoStage"",""actionName"":""show"",""mark"":8.3}]}}}],""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""srcId"":""video-clip-1534219601258"",""originalWidth"":-1,""originalHeight"":-1,""hasGetVideoSize"":"""",""width"":100,""height"":100,""markers"":[],""isAutoplay"":true,""isLoop"":false,""isMuted"":true,""poster"":""test/video_covers/2018-08-14/155b725ad837a4e4.77962445.jpg"",""baseData"":"""",""volume"":60,""speed"":1,""isShowVideoImg"":false,""start"":1.15,""end"":8.3,""fps"":25},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:0px;\n    left:0px;\n    width:667px;\n    height:375px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:9999;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    ""}],""id"":""1"",""name"":""Starting Stage"",""desc"":"""",""triggerComponents"":[{""from"":{""id"":""sye-component-video_29"",""type"":""component""},""to"":{""id"":""3"",""type"":""scene""}}],""poster"":""test/video_covers/2018-08-14/155b725ad837a4e4.77962445.jpg""},{""props"":{""id"":""sye-component-stage_4"",""alias"":""stage_3"",""type"":""sye-component-stage"",""selected"":false,""style"":{""top"":0,""left"":0,""width"":375,""height"":667,""rotate"":0,""opacity"":1,""backgroundImage"":""""},""animationConfigs"":[],""resizeable"":false,""moveable"":false,""rotateable"":false,""copyable"":false,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":0,""isTriggerStage"":false,""isEditing"":false,""ueevent"":{},""targets"":[],""selectAble"":false},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:0px;\n    left:0px;\n    width:375px;\n    height:667px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:0;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    "",""children"":[{""props"":{""id"":""sye-component-hot_18"",""alias"":""Slide Right"",""type"":""sye-component-hot"",""selected"":false,""style"":{""left"":437,""top"":63,""width"":230,""height"":118,""rotate"":0,""opacity"":1,""transform"":""translate3d(0,0,0) rotateZ(0deg)""},""animationConfigs"":[],""resizeable"":true,""moveable"":true,""rotateable"":true,""copyable"":true,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":9999,""isTriggerStage"":true,""isEditing"":false,""ueevent"":{""click"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-stage_10&sye-component-stage_4"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""targets"":[{""id"":""target1534221207255"",""start"":{""left"":865,""top"":351},""end"":{""left"":215,""top"":660},""isEditing"":false,""isTemp"":false,""width"":719.7089689589814,""isActive"":false,""ueevent"":{""click"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-stage_10&sye-component-stage_4"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""target"":{""id"":""6"",""type"":""scene""},""angel"":154}],""link"":"""",""isLink"":true,""defaultTrigger"":""click"",""defaultTriggerName"":""Tap""},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:63px;\n    left:437px;\n    width:230px;\n    height:118px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:9999;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    ""},{""props"":{""id"":""sye-component-hot_17"",""alias"":""Slide Left"",""type"":""sye-component-hot"",""selected"":false,""style"":{""left"":0,""top"":61,""width"":230,""height"":118,""rotate"":0,""opacity"":1,""transform"":""translate3d(0,0,0) rotateZ(0deg)""},""animationConfigs"":[],""resizeable"":true,""moveable"":true,""rotateable"":true,""copyable"":true,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":9998,""isTriggerStage"":true,""isEditing"":false,""ueevent"":{""click"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-stage_8&sye-component-stage_4"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""targets"":[{""id"":""target1534221189734"",""start"":{""left"":428,""top"":349},""end"":{""left"":215,""top"":586},""isEditing"":false,""isTemp"":false,""width"":318.65027851862925,""isActive"":false,""ueevent"":{""click"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-stage_8&sye-component-stage_4"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""target"":{""id"":""5"",""type"":""scene""},""angel"":131}],""link"":"""",""isLink"":true,""defaultTrigger"":""click"",""defaultTriggerName"":""Tap""},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:61px;\n    left:0px;\n    width:230px;\n    height:118px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:9998;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    ""},{""props"":{""id"":""sye-component-video_30"",""alias"":""Choose"",""type"":""sye-component-video"",""selected"":false,""style"":{""left"":0,""top"":0,""width"":667,""height"":375,""opacity"":1,""rotate"":0,""transform"":""translate3d(0,0,0) rotateZ(0deg)""},""animationConfigs"":[],""resizeable"":true,""moveable"":true,""rotateable"":true,""copyable"":false,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":9997,""isTriggerStage"":true,""isEditing"":false,""ueevent"":{""b14.4"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_30"",""action"":""video,pause""},{""target"":""sye-component-stage_6&sye-component-stage_4"",""targetName"":""Stage4"",""action"":""linktoStage"",""actionName"":""show"",""mark"":14.4}]}},""targets"":[{""id"":""target1534303395177"",""start"":{""left"":427,""top"":415.5},""end"":{""left"":215,""top"":452},""isEditing"":false,""isTemp"":false,""width"":215.11915302919914,""isActive"":false,""angel"":170,""currentScene"":{""id"":""3""},""target"":{""type"":""scene"",""id"":""4""},""ueevent"":{""video,end"":{""name"":""Stop"",""actions"":[{""target"":""sye-component-stage_6&sye-component-stage_4"",""targetName"":""Stage4"",""action"":""linktoStage"",""actionName"":""show"",""mark"":14.4}]}}}],""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""srcId"":""video-clip-1534219796735"",""originalWidth"":-1,""originalHeight"":-1,""hasGetVideoSize"":"""",""width"":100,""height"":100,""markers"":[],""isAutoplay"":true,""isLoop"":false,""isMuted"":true,""poster"":""test/video_covers/2018-08-15/155b739b374dba44.26939004.jpg"",""baseData"":"""",""volume"":60,""speed"":1,""isShowVideoImg"":false,""start"":8.3,""end"":14.4,""fps"":25},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:0px;\n    left:0px;\n    width:667px;\n    height:375px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:9997;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    ""}],""id"":""3"",""name"":""Choose"",""desc"":"""",""triggerComponents"":[{""from"":{""id"":""sye-component-hot_18"",""type"":""component""},""to"":{""id"":""6"",""type"":""scene""}},{""from"":{""id"":""sye-component-hot_17"",""type"":""component""},""to"":{""id"":""5"",""type"":""scene""}},{""from"":{""id"":""sye-component-video_30"",""type"":""component""},""to"":{""id"":""4"",""type"":""scene""}}],""poster"":""test/video_covers/2018-08-15/155b739b374dba44.26939004.jpg""},{""props"":{""id"":""sye-component-stage_6"",""alias"":""stage_4"",""type"":""sye-component-stage"",""selected"":false,""style"":{""top"":0,""left"":0,""width"":375,""height"":667,""rotate"":0,""opacity"":1,""backgroundImage"":""""},""animationConfigs"":[],""resizeable"":false,""moveable"":false,""rotateable"":false,""copyable"":false,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":0,""isTriggerStage"":false,""isEditing"":false,""ueevent"":{},""targets"":[],""selectAble"":false},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:0px;\n    left:0px;\n    width:375px;\n    height:667px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:0;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    "",""children"":[{""props"":{""id"":""sye-component-image_42"",""alias"":""Restart"",""type"":""sye-component-image"",""selected"":false,""style"":{""left"":250,""top"":147,""width"":167,""height"":63,""rotate"":0,""opacity"":1,""transform"":""translate3d(0,0,0) rotateZ(0deg)""},""animationConfigs"":[],""resizeable"":true,""moveable"":true,""rotateable"":true,""copyable"":true,""isNone"":true,""isShadow"":false,""isBorder"":false,""zIndex"":9999,""isTriggerStage"":true,""isEditing"":false,""ueevent"":{""click"":{""name"":""Tap"",""actions"":[{""target"":""sye-component-stage_1&sye-component-stage_6"",""targetName"":""Starting Stage"",""action"":""linktoStage"",""actionName"":""show""}]}},""targets"":[{""id"":""target1534326285561"",""start"":{""left"":677,""top"":406.5},""end"":{""left"":215,""top"":120},""isEditing"":false,""isTemp"":false,""width"":543.6232610917233,""isActive"":false,""angel"":212,""currentScene"":{""id"":""4""},""target"":{""type"":""scene"",""id"":""1""},""ueevent"":{""click"":{""name"":""Tap"",""actions"":[{""target"":""sye-component-stage_1&sye-component-stage_6"",""targetName"":""Starting Stage"",""action"":""linktoStage"",""actionName"":""show""}]}}}],""src"":""test/images/2018-08-15/15/95b73f527a36869.45162362.png"",""baseData"":"""",""originalWidth"":416,""originalHeight"":157,""hasGetImageSize"":""test/images/2018-08-15/15/95b73f527a36869.45162362.png"",""width"":416,""height"":157},""boundingStyle"":""\n    position:absolute;\n    display:none;\n    top:147px;\n    left:250px;\n    width:167px;\n    height:63px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:9999;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    ""},{""props"":{""id"":""sye-component-audio_26"",""alias"":""Click"",""type"":""sye-component-audio"",""selected"":false,""style"":{""left"":0,""top"":-33,""width"":195,""height"":25,""rotate"":0,""opacity"":1,""transform"":""translate3d(0,0,0) rotateZ(0deg)""},""animationConfigs"":[],""resizeable"":false,""moveable"":true,""rotateable"":false,""copyable"":true,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":9998,""isTriggerStage"":false,""isEditing"":false,""ueevent"":{},""targets"":[],""src"":""test/audios/2018-08-14/15/15b726cc72ef7c9.72706755.mp3"",""isAutoplay"":false,""isLoop"":false,""isMuted"":true,""poster"":"""",""baseData"":"""",""volume"":60,""speed"":1},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:-33px;\n    left:0px;\n    width:195px;\n    height:25px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:9998;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    ""},{""props"":{""id"":""sye-component-image_19"",""alias"":""Time Up"",""type"":""sye-component-image"",""selected"":false,""style"":{""left"":165,""top"":115,""width"":317,""height"":37,""rotate"":0,""opacity"":1,""transform"":""translate3d(0,0,0) rotateZ(0deg)""},""animationConfigs"":[],""resizeable"":true,""moveable"":true,""rotateable"":true,""copyable"":true,""isNone"":true,""isShadow"":false,""isBorder"":false,""zIndex"":9997,""isTriggerStage"":false,""isEditing"":false,""ueevent"":{},""targets"":[],""src"":""test/images/2018-08-14/15/15b725bdfd2aff2.66592217.png"",""baseData"":"""",""originalWidth"":632,""originalHeight"":65,""hasGetImageSize"":""test/images/2018-08-14/15/15b725bdfd2aff2.66592217.png"",""width"":317,""height"":32.60284810126583},""boundingStyle"":""\n    position:absolute;\n    display:none;\n    top:115px;\n    left:165px;\n    width:317px;\n    height:37px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:9997;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    ""},{""props"":{""id"":""sye-component-video_31"",""alias"":""Fall"",""type"":""sye-component-video"",""selected"":false,""style"":{""left"":0,""top"":0,""width"":667,""height"":375,""opacity"":1,""rotate"":0,""transform"":""translate3d(0,0,0) rotateZ(0deg)""},""animationConfigs"":[],""resizeable"":true,""moveable"":true,""rotateable"":true,""copyable"":false,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":9996,""isTriggerStage"":false,""isEditing"":false,""ueevent"":{""b25.1"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_31"",""action"":""video,pause""},{""target"":""sye-component-image_19"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""isshow,true"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""},{""target"":""sye-component-image_42"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""animate,pulse 1s ease 0s infinite normal forwards running"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""targets"":[{""id"":""target1534303406568"",""start"":{""left"":427,""top"":415.5},""end"":{""left"":1294,""top"":394},""isEditing"":false,""isTemp"":false,""width"":867.2665391908073,""isActive"":false,""ueevent"":{""video,end"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-image_19"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""isshow,true"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""target"":{""id"":""sye-component-image_19"",""type"":""component""},""angel"":-2},{""id"":""target1534326271966"",""start"":{""left"":427,""top"":415.5},""end"":{""left"":1294,""top"":330},""isEditing"":false,""isTemp"":false,""width"":871.2056301470968,""isActive"":false,""ueevent"":{""video,end"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-image_42"",""targetType"":""component"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""animate,pulse 1s ease 0s infinite normal forwards running"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""target"":{""id"":""sye-component-image_42"",""type"":""component""},""angel"":-6}],""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""srcId"":""video-clip-1534219881280"",""originalWidth"":-1,""originalHeight"":-1,""hasGetVideoSize"":"""",""width"":100,""height"":100,""markers"":[],""isAutoplay"":true,""isLoop"":false,""isMuted"":true,""poster"":""test/video_covers/2018-08-14/155b725ad817f6a1.23083553.jpg"",""baseData"":"""",""volume"":60,""speed"":1,""isShowVideoImg"":false,""start"":23.23,""end"":25.1,""fps"":25},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:0px;\n    left:0px;\n    width:667px;\n    height:375px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:9996;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    ""}],""id"":""4"",""name"":""Fall"",""desc"":"""",""triggerComponents"":[{""from"":{""id"":""sye-component-image_42"",""type"":""component""},""to"":{""id"":""1"",""type"":""scene""}}],""poster"":""test/video_covers/2018-08-14/155b725ad817f6a1.23083553.jpg""},{""props"":{""id"":""sye-component-stage_8"",""alias"":""stage_5"",""type"":""sye-component-stage"",""selected"":false,""style"":{""top"":0,""left"":0,""width"":375,""height"":667,""rotate"":0,""opacity"":1,""backgroundImage"":""""},""animationConfigs"":[],""resizeable"":false,""moveable"":false,""rotateable"":false,""copyable"":false,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":0,""isTriggerStage"":false,""isEditing"":false,""ueevent"":{},""targets"":[],""selectAble"":false},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:0px;\n    left:0px;\n    width:375px;\n    height:667px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:0;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    "",""children"":[{""props"":{""id"":""sye-component-video_9"",""alias"":""Left"",""type"":""sye-component-video"",""selected"":false,""style"":{""left"":0,""top"":0,""width"":667,""height"":375,""opacity"":1,""rotate"":0,""transform"":""translate3d(0,0,0) rotateZ(0deg)""},""animationConfigs"":[],""resizeable"":true,""moveable"":true,""rotateable"":true,""copyable"":false,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":9999,""isTriggerStage"":true,""isEditing"":false,""ueevent"":{""b18.69"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_9"",""action"":""video,pause""},{""target"":""sye-component-stage_12&sye-component-stage_8"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""targets"":[{""id"":""target1534224121611"",""start"":{""left"":427,""top"":415.5},""end"":{""left"":215,""top"":660},""isEditing"":false,""isTemp"":false,""width"":323.61126371002604,""isActive"":false,""ueevent"":{""video,end"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-stage_12&sye-component-stage_8"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""target"":{""id"":""7"",""type"":""scene""},""angel"":130}],""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""srcId"":""video-clip-1534220100065"",""originalWidth"":-1,""originalHeight"":-1,""hasGetVideoSize"":"""",""width"":100,""height"":100,""markers"":[],""isAutoplay"":true,""isLoop"":false,""isMuted"":true,""poster"":""test/video_covers/2018-08-14/155b725ad820ad41.32342946.jpg"",""baseData"":"""",""volume"":60,""speed"":1,""isShowVideoImg"":false,""start"":16.45,""end"":18.69,""fps"":25},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:0px;\n    left:0px;\n    width:667px;\n    height:375px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:9999;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    ""}],""id"":""5"",""name"":""Left"",""desc"":"""",""triggerComponents"":[{""from"":{""id"":""sye-component-video_9"",""type"":""component""},""to"":{""id"":""7"",""type"":""scene""}}],""poster"":""test/video_covers/2018-08-14/155b725ad820ad41.32342946.jpg""},{""props"":{""id"":""sye-component-stage_10"",""alias"":""stage_6"",""type"":""sye-component-stage"",""selected"":false,""style"":{""top"":0,""left"":0,""width"":375,""height"":667,""rotate"":0,""opacity"":1,""backgroundImage"":""""},""animationConfigs"":[],""resizeable"":false,""moveable"":false,""rotateable"":false,""copyable"":false,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":0,""isTriggerStage"":false,""isEditing"":false,""ueevent"":{},""targets"":[],""selectAble"":false},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:0px;\n    left:0px;\n    width:375px;\n    height:667px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:0;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    "",""children"":[{""props"":{""id"":""sye-component-video_11"",""alias"":""Right"",""type"":""sye-component-video"",""selected"":false,""style"":{""left"":0,""top"":0,""width"":667,""height"":375,""opacity"":1,""rotate"":0,""transform"":""translate3d(0,0,0) rotateZ(0deg)""},""animationConfigs"":[],""resizeable"":true,""moveable"":true,""rotateable"":true,""copyable"":false,""isNone"":false,""isShadow"":false,""isBorder"":false,""zIndex"":9999,""isTriggerStage"":true,""isEditing"":false,""ueevent"":{""b22.26"":{""name"":""segmentEnd"",""actions"":[{""target"":""sye-component-video_11"",""action"":""video,pause""},{""target"":""sye-component-stage_14&sye-component-stage_10"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""targets"":[{""id"":""target1534224389997"",""start"":{""left"":427,""top"":415.5},""end"":{""left"":215,""top"":532},""isEditing"":false,""isTemp"":false,""width"":241.90132285706915,""isActive"":false,""ueevent"":{""video,end"":{""name"":"""",""markname"":"""",""mark"":"""",""casename"":"""",""actions"":[{""target"":""sye-component-stage_14&sye-component-stage_10"",""targetType"":""scene"",""targetName"":"""",""xPoint"":"""",""yPoint"":"""",""action"":""linktoStage"",""actionName"":"""",""actionResult"":"""",""mark"":"""",""markname"":""""}]}},""target"":{""id"":""8"",""type"":""scene""},""angel"":151}],""src"":""test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""srcId"":""video-clip-1534220244959"",""originalWidth"":-1,""originalHeight"":-1,""hasGetVideoSize"":"""",""width"":100,""height"":100,""markers"":[],""isAutoplay"":true,""isLoop"":false,""isMuted"":true,""poster"":""test/video_covers/2018-08-14/155b725ad829ca90.90454405.jpg"",""baseData"":"""",""volume"":60,""speed"":1,""isShowVideoImg"":false,""start"":20.1,""end"":22.26,""fps"":25},""boundingStyle"":""\n    position:absolute;\n    display:block;\n    top:0px;\n    left:0px;\n    width:667px;\n    height:375px;\n    border-radius:undefined%;\n    opacity:1;\n    z-index:9999;\n    background-color:undefined;\n    undefined;\n    undefined;\n    transform:rotateZ(0deg) translate3d(0,0,0);\n    -ms-transform:rotateZ(0deg) translate3d(0,0,0);\n    -moz-transform:rotateZ(0deg) translate3d(0,0,0);\n    -webkit-transform:rotateZ(0deg) translate3d(0,0,0);\n    -o-transform:rotateZ(0deg) translate3d(0,0,0);\n    ""}],""id"":""6"",""name"":""Right"",""desc"":"""",""triggerComponents"":[{""from"":{""id"":""sye-component-video_11"",""type"":""component""},""to"":{""id"":""8"",""type"":""scene""}}],""poster"":""test/video_covers/2018-08-14/","{""images"":[""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-15/15/95b73f527a36869.45162362.png"",""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-14/15/15b725bdfd2aff2.66592217.png"",""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-15/15/45b73d6ee1caf62.78391683.png"",""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-15/15/55b73d69d521fd9.71705352.png""],""videos"":[""http://d3ljqgx1ze2ak9.cloudfront.net/test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4""],""audios"":[""http://d3ljqgx1ze2ak9.cloudfront.net/test/audios/2018-08-14/15/45b726bb8d35f90.97432811.mp3"",""http://d3ljqgx1ze2ak9.cloudfront.net/test/audios/2018-08-14/15/15b726cc72ef7c9.72706755.mp3"",""http://d3ljqgx1ze2ak9.cloudfront.net/test/audios/2018-08-14/15/25b726d4d01d5a0.18053151.mp3"",""http://d3ljqgx1ze2ak9.cloudfront.net/test/audios/2018-08-14/15/25b726d67b87af5.19130709.mp3""],""gifs"":[""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-14/15/75b7267159691a6.37277860.gif"",""http://d3ljqgx1ze2ak9.cloudfront.net/test/images/2018-08-14/15/35b7268225fb832.80183806.gif""],""js"":[""http://test.editor.synative.com/editor//static/js/client.js""],""css"":[""http://test.editor.synative.com/editor//static/css/client.css""]}",1,100,1,default,"[{""url"":""http://d3ljqgx1ze2ak9.cloudfront.net/test/videos/2018-08-14/15/95b72551f7c6770.24781724_fps25.mp4"",""fps"":25,""cut"":[[1.15,8.3],[8.3,14.4],[23.23,25.1],[16.45,18.69],[20.1,22.26],[46.86,54.62],[36.44,40.98],[56.42,60.61]]}]",1

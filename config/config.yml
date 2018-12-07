@@ -1,0 +1,24 @@
+URL: http://www.baidu.com
+IVE_URL: http://test.editor.synative.cn/#/login
+abc: 123
+#chrome path，chromedriver in Chrome\Application path
+Chorme_path: D:\Program Files (x64)\Google\Chrome\Application\
+log:
+  file_name: logs.log
+  backup: 5
+  console_level: WARNING
+  file_level: DEBUG
+  pattern: '[%(levelname)s - %(asctime)s - %(name)s] : %(message)s'
+mail:
+  receiver: 317975868@qq.com
+  server: smtp.newcapec.net
+  sender: renzhansheng@newcapec.net
+  password: newcapec
+ip: 127.0.0.1
+port: 8080
+upload_num: 30
+upload_list:
+- 5116
+download_num: 1
+download_list:
+- 5230

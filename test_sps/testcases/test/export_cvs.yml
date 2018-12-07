@@ -1,0 +1,63 @@
+- config:
+    name: IVE_Login description
+    request:
+        base_url: "http://test.editor.synative.cn"
+        headers:
+            Content-Type: application/json
+    variables:
+        # - email-password: ${P(email-password.csv)}
+        - email-password-captcha: 
+            - ["tfwork@synative.com", "123456","1111"]
+
+- test:
+    name: login
+    request:
+        url: /backend/public/index.php/api/login
+        method: POST
+        json:
+            email: $email
+            password: $password
+            captcha: $captcha
+    extract:
+        - access_token: content.data.access_token
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]
+
+- test:
+    name: export project  # ---导出项目
+    # skipIf: ${skip_test_in_online_env()}
+    variables:
+        - channel: 'default'
+    parameters: 
+        # ---只用于export project
+        - export_id: [3791,3792]
+        - percent_videos: [1,2,3,4]
+    request:
+        url: /backend/public/index.php/api/h5_zip
+        method: POST
+        headers:
+            Authorization: Bearer $access_token
+        json:
+            v: 2
+            id: $export_id
+            percent: 100
+            platform: 0
+            percent_videos: $percent_videos
+            channel: $channel
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["${check_zip($export_id,$channel,$access_token)}", 2]
+
+- test:
+    name: logout
+    # skipIf: ${skip_test_in_online_env()}
+    request:
+        url: /backend/public/index.php/api/logout
+        method: POST
+        headers:
+            Authorization: Bearer $access_token
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]
+            

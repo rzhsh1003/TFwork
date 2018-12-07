@@ -1,0 +1,36 @@
+- config:
+    name: "login and check,loginout and check."
+    def: login_and_loginout($email, $password, $captcha)
+    request:
+        "base_url": "http://test.editor.synative.com"
+        "headers":
+            "Content-Type": "application/json"
+    # variables:
+    #     - email: "317975868@qq.com"
+    #     - password: "111111"
+    #     - captcha: '1111'
+
+- test:
+    name: login and check
+    api: login($email, $password, $captcha)
+    extract:
+        - access_token: content.data.access_token
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]
+        - eq: ["content.data.email", $email]
+
+- test:
+    name: account_refresh
+    api: account_refresh($access_token)
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]
+        - eq: ["content.data.email", $email]
+
+- test:
+    name: loginout and check
+    api: logout($access_token)
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]
