@@ -127,7 +127,7 @@ def check_zip(id,channel,access_token):
                 z = requests.get(down_url) 
                 with open('download/'+name, "wb") as code:
                     code.write(z.content)
-                '''统计下载使用时间，记录日志和数据'''
+                """ 统计下载使用时间，记录日志和数据"""
                 logger.info('第%s次导出成功，用时：%sms' % (str(n) ,str(usetime)))
                 logger.info("Export zip url: "+down_url)
                 break
