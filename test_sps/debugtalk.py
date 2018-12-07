@@ -202,9 +202,11 @@ if __name__ == '__main__':
     # check_zip(id,'default',login_token)
 
     import numpy as np
+
     yml_path = './data/sps.yml'
     x1 = Config(yml_path).get('upload_time_list')
     y1 = Config(yml_path).get('upload_usetime_list')
     num = Config(yml_path).get('upload_num')
     average =int(np.sum(y1)/num)
-    chart_line(x1,y1,label='upload average(ms):%s' %average)
+    print(average)
+    chart_line(x1,y1,label='upload average(ms): %s' %average)
