@@ -45,21 +45,23 @@ def updata(db,sql):
 
 if __name__ == '__main__':
 	"""dev connect"""
-	host = "10.200.11.238"
-	name = "root"
-	password = "hackqy@qq.com"
-	database = "ive-new-backend"
+	# host = "10.200.11.238"
+	# name = "root"
+	# password = "hackqy@qq.com"
+	# database = "ive-new-backend"
 
-	# """test connect"""
-	# host = "52.83.155.77"
-	# name = "sps_qa"
-	# password = "php@synative"
+	"""test connect"""
+	host = "52.83.155.77"
+
 	# database = "webtrail_test"
+	database = "ive-new-test"
 
-	updata_sql = "update users set is_examine=1,set_meal_id=4,strart_time='2018-09-05 08:39:38',expiry_time='2019-12-12 08:00:00' where email='317975868@qq.com'"
-	select_sql = "select url from resource_video where rid in (select rid from h5_video_user a where a.owner=30) and cover is null"
+	email = 'case18@synative.com'
+	updata_sql = "update users set is_examine=1,set_meal_id=4,strart_time='2018-09-05 08:39:38',expiry_time='2019-12-12 08:00:00' where email='%s'" % email
+	select_sql = "select * from captcha where email = '%s'" % email
 	"""  """
 	conn = connection(host,name,password,database)
-	urls = select(conn,select_sql)
-	print(urls)	
+	# res = select(conn,select_sql)
+	res = updata(conn,updata_sql)
+	print(res)
 	close(conn)
