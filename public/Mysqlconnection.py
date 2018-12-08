@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*
 import pymysql
+from Support import base64decode
 
 """
 MySQL connection 
@@ -52,7 +53,8 @@ if __name__ == '__main__':
 
 	"""test connect"""
 	host = "52.83.155.77"
-
+	name = base64decode(b'c3BzX3Fh')
+	password = base64decode(b'cGhwQHN5bmF0aXZl')
 	# database = "webtrail_test"
 	database = "ive-new-test"
 
@@ -61,7 +63,7 @@ if __name__ == '__main__':
 	select_sql = "select * from captcha where email = '%s'" % email
 	"""  """
 	conn = connection(host,name,password,database)
-	# res = select(conn,select_sql)
-	res = updata(conn,updata_sql)
+	res = select(conn,select_sql)
+	# res = updata(conn,updata_sql)
 	print(res)
 	close(conn)

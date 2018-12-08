@@ -2,6 +2,7 @@
 """一些支持方法，比如加密"""
 import hashlib
 import sys
+import base64
 from Log import logger
 
 
@@ -41,11 +42,20 @@ def encrypt(string, salt='', encrypt_way='MD5'):
     hash_string.update(string.encode())
     return hash_string.hexdigest()
 
+def base64encode(string):
+    encode_string = base64.b64encode(string)
+    return encode_string
+
+def base64decode(string):
+    decode_string = base64.b64decode(string)
+    return decode_string
+
 if __name__ == '__main__':
-<<<<<<< HEAD
     print(encrypt('age=19&name=uncle',encrypt_way='MD5'))
+
     dict_test = {'name':'uncle','age':19}
     print(sign(dict_test,encrypt_way='MD5'))
-=======
-    print(encrypt('100000307111111',encrypt_way='MD5'))
->>>>>>> 5eabeea4ef3e094c81cc485bf73e15772e2fbb48
+
+    # name = base64encode(b'sps_qa')
+    # pw = base64encode(b'php@synative')
+    # print(name,pw)
