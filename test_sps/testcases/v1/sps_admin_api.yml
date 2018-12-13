@@ -5,9 +5,13 @@
         headers:
             Content-Type: application/json
     variables:
-        # ---app_id、to_email用于project copy、
-        - app_id: '2758'
-        - to_email: 'case8@synative.com'
+        # ---app_id、to_email用于project copy、case:2758、Preview-Export：4074
+        #本环境：local（test-com，test-cn,con,cn）
+        - app_id: '4252'
+        # - to_email: 'pv@synative.com'
+        - to_email: 'renzhansheng@altamob.com'
+        - address: test-com
+
 
 # ---结果校验方法：
 # ---1、等于：eq
@@ -19,7 +23,7 @@
 
 - test:
     name: login  # ---登录
-    skipIf: ${skip_test_in_online_env()}
+    # skipIf: ${skip_test_in_online_env()}
     request:
         url: /backend/public/index.php/api/login
         method: POST
@@ -70,7 +74,7 @@
 
 - test:
     name: project copy  # ---批量复制项目
-    skipIf: ${skip_test_in_online_env()}
+    # skipIf: ${skip_test_in_online_env()}
     request:
         url: /backend/public/index.php/admin/project/copy
         method: POST
@@ -78,7 +82,9 @@
             Authorization: Bearer $access_token
         json:
             ids: $app_id
-            email: $email
+            email: $to_email
+            #本环境：local（test-com，test-cn,con,cn）
+            address: $address
     validate:
         - eq: ["status_code", 200]
         - eq: ["content.message", success]
