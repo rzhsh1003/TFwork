@@ -21,8 +21,8 @@ if __name__ == '__main__':
 	文件夹路径  runner.run("docs/data/")
 	混合情况    runner.run(["docs/data/", "files/demo-quickstart-2.yml"]) 
 	'''	
-	# runner.run("testcases/v1/sps_api.yml")
-	runner.run("testcases/v1/sps_admin_api.yml")
+	runner.run("testcases/v1/sps_api.yml")
+	# runner.run("testcases/v1/sps_admin_api.yml")
 	
 	# get result summary
 	summary = runner.summary

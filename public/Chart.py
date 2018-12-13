@@ -40,17 +40,17 @@ if __name__ == '__main__':
 	# chart_round(labels,sizes,colors,explode)
 
 	''' Export data generated 2-D Chart Line'''
-	yml_path = '../test_sps/data/sps.yml'
-	x1 = Config(yml_path).get('export_time_list')
-	y1 = Config(yml_path).get('export_usetime_list')
-	num = Config(yml_path).get('export_num')
-	average =int(np.sum(y1)/num)
-	chart_line(x1,y1,label='export average(ms):%s' %average)
+	# yml_path = '../test_sps/data/sps.yml'
+	# x1 = Config(yml_path).get('export_time_list')
+	# y1 = Config(yml_path).get('export_usetime_list')
+	# num = Config(yml_path).get('export_num')
+	# average =int(np.sum(y1)/num)
+	# chart_line(x1,y1,label='export average(ms):%s' %average)
 
 	''' Upload data generated 2-D Chart Line'''
-	# yml_path = '../test_sps/data/sps.yml'
-	# x1 = Config(yml_path).get('upload_time_list')
-	# y1 = Config(yml_path).get('upload_usetime_list')
-	# num = Config(yml_path).get('upload_num')
-	# average =int(np.sum(y1)/num)
-	# chart_line(x1,y1,label='upload average(ms):%s' %average)
+	yml_path = '../test_sps/data/sps.yml'
+	x1 = Config(yml_path).get('upload_time_list')
+	y1 = Config(yml_path).get('upload_usetime_list')
+	num = Config(yml_path).get('upload_num')
+	average =int(np.sum(y1)/num)
+	chart_line(x1,y1,label='upload average(ms):%s' %average)

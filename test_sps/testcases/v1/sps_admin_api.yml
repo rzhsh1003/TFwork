@@ -8,9 +8,9 @@
         # ---app_id、to_email用于project copy、case:2758、Preview-Export：4074
         #本环境：local（test-com，test-cn,con,cn）
         - app_id: '4252'
-        # - to_email: 'pv@synative.com'
-        - to_email: 'renzhansheng@altamob.com'
-        - address: test-com
+        - to_email: 'pv@synative.com'
+        # - to_email: 'renzhansheng@altamob.com'
+        - address: local
 
 
 # ---结果校验方法：

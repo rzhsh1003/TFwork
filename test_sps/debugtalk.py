@@ -51,7 +51,7 @@ def login(email,password,captcha):
 """ 
 For locust to return to user auth ，Please note when not in use.
 """
-login_token = login(email,password,captcha)
+# login_token = login(email,password,captcha)
 
 
 """ 
@@ -137,8 +137,7 @@ def check_zip(id,channel,access_token):
                 break
             else:
                 time.sleep(5)
-        except Exception as e:
-            raise e
+        except:
             time.sleep(5)
     dulist.append(usetime)
     dtlist.append(time.strftime('%H:%M:%S',time.localtime(starttime)))
@@ -181,8 +180,7 @@ def check_video_fps(id,access_token):
                 logger.info('第%s次上传视频失败，用时：%sms' % (str(n) ,str(usetime)))
                 logger.info("Upload video and fps Fail: "+id)
                 break
-        except Exception as e:
-            raise e
+        except:
             time.sleep(5)
     uulist.append(usetime)
     utlist.append(time.strftime('%H:%M:%S',time.localtime(starttime)))
