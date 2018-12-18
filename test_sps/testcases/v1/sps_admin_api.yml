@@ -7,10 +7,12 @@
     variables:
         # ---app_id、to_email用于project copy、case:2758、Preview-Export：4074
         #本环境：local（test-com，test-cn,con,cn）
-        - app_id: '4252'
+        - app_id: '4297'
         - to_email: 'pv@synative.com'
         # - to_email: 'renzhansheng@altamob.com'
-        - address: local
+        - address: dev
+        # ---create_email用于create
+        - create_email: 'aduser1@synative.com'
 
 
 # ---结果校验方法：
@@ -74,7 +76,7 @@
 
 - test:
     name: project copy  # ---批量复制项目
-    # skipIf: ${skip_test_in_online_env()}
+    skipIf: ${skip_test_in_online_env()}
     request:
         url: /backend/public/index.php/admin/project/copy
         method: POST
@@ -85,6 +87,21 @@
             email: $to_email
             #本环境：local（test-com，test-cn,con,cn）
             address: $address
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]
+
+- test:
+    name: create user  # ---添加账号
+    # skipIf: ${skip_test_in_online_env()}
+    request:
+        url: /backend/public/index.php/admin/account_list/create
+        method: POST
+        headers:
+            Authorization: Bearer $access_token
+        json:
+            email: $create_email
+            password: $password
     validate:
         - eq: ["status_code", 200]
         - eq: ["content.message", success]

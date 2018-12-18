@@ -15,6 +15,8 @@ Sps_admin_url = "http://test.ve-admin.synative.cn"
 S3_cn = "http://s3.cn-northwest-1.amazonaws.com.cn/nx-synative-ve"
 email = "tfwork@synative.com"
 password = "123456"
+# email = "liuquanyang@altamob.com"
+# password = "qweqwe123"
 captcha = "1111"
 upload_image = "./data/image_tfwork.png"
 # upload_video = "./data/image_tfwork.png"
@@ -51,7 +53,7 @@ def login(email,password,captcha):
 """ 
 For locust to return to user auth ，Please note when not in use.
 """
-# login_token = login(email,password,captcha)
+login_token = login(email,password,captcha)
 
 
 """ 

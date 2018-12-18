@@ -77,22 +77,22 @@
 #         - eq: ["content.message", success]
 #         - len_gt: ["content.data", 0]
 
-- test:
-    name: upload video  # ---上传视频接口
-    # skipIf: ${skip_test_in_online_env()}
-    request:
-        url: /backend/public/index.php/api/upload
-        method: POST
-        headers:
-            Content-Type: multipart/form-data;boundary=$upload_boundary
-            Authorization: Bearer $access_token
-        data: ${upload_file($upload_video)}
-    extract:
-        - video_uuid: content.data.id
-    validate:
-        - eq: ["status_code", 200]
-        - eq: ["content.message", success]
-        - eq: ["${check_video_fps($video_uuid,$access_token)}", 1]
+# - test:
+#     name: upload video  # ---上传视频接口
+#     # skipIf: ${skip_test_in_online_env()}
+#     request:
+#         url: /backend/public/index.php/api/upload
+#         method: POST
+#         headers:
+#             Content-Type: multipart/form-data;boundary=$upload_boundary
+#             Authorization: Bearer $access_token
+#         data: ${upload_file($upload_video)}
+#     extract:
+#         - video_uuid: content.data.id
+#     validate:
+#         - eq: ["status_code", 200]
+#         - eq: ["content.message", success]
+#         - eq: ["${check_video_fps($video_uuid,$access_token)}", 1]
 
 # - test:
 #     name: update resource  # ---替换资源
@@ -143,16 +143,16 @@
 #         - eq: ["content.message", success]
 #         - eq: ["content.data.fps_status", 1]
 
-# - test:
-#     name: show  # ---预览页面
-#     skipIf: ${skip_test_in_online_env()}
-#     request:
-#         url: /backend/public/index.php/show/$app_id
-#         method: GET
-#         params:
-#             v: 2
-#     validate:
-#         - eq: ["status_code", 200]
+- test:
+    name: show  # ---预览页面
+    skipIf: ${skip_test_in_online_env()}
+    request:
+        url: /backend/public/index.php/show/$app_id
+        method: GET
+        params:
+            v: 2
+    validate:
+        - eq: ["status_code", 200]
 
 # - test:
 #     name: export project  # ---导出项目
