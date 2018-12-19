@@ -77,6 +77,8 @@ class ExcelReader:
                 s = workbook.sheet_by_name(self.sheet)
 
             if self.title_line:
+                # 第1列为title,第2列为值，返回字典
+                # self._data.append(dict(zip(s.col_values(0) , s.col_values(1))))
                 title = s.row_values(0)  # 首行为title
                 for col in range(1, s.nrows):
                     # 依次遍历其余行，与首行组成dict，拼到self._data中
@@ -84,6 +86,7 @@ class ExcelReader:
             else:
                 for col in range(0, s.nrows):
                     # 遍历所有行，拼到self._data中
+                    print (s.row_values(col))
                     self._data.append(s.row_values(col))
         return self._data
 
@@ -101,18 +104,21 @@ class ExcelReader:
 
 if __name__ == '__main__':
     # #读取yml方法
-    y = '../config/config.yml'
-    reader = YamlReader(y)
-    reader.updata('abc',1234)
-    print(reader.data)
+    # y = '../config/config.yml'
+    # reader = YamlReader(y)
+    # reader.updata('abc',1234)
+    # print(reader.data)
 
-    #读取excle方法，以及字典元素遍历
-    # e = '../data/baidu.xlsx'
-    # reader = ExcelReader(e, title_line=True).data
+    # 读取excle方法，以及字典元素遍历
+    import json
+    e = '../data/baidu.xlsx'
+    reader = ExcelReader(e, title_line=False).data
     # print(reader)
+    print(json.dumps(reader))
     # for d in reader:
     #     print (d)
-    #     print (d['search'],d['search1'])
+    #     print(dumps(d, indent=4))
+        # print (d['search'],d['search1'])
 
     # #修改excle方法
     # e = '../data/baidu.xlsx'
