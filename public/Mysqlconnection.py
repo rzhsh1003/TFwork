@@ -45,11 +45,6 @@ def updata(db,sql):
 		db.rollback()
 
 if __name__ == '__main__':
-	"""dev connect"""
-	# host = "10.200.11.238"
-	# name = "root"
-	# password = "hackqy@qq.com"
-	# database = "ive-new-backend"
 
 	"""test connect"""
 	host = "52.83.155.77"
@@ -58,12 +53,12 @@ if __name__ == '__main__':
 	database = "webtrail_test"
 	# database = "ive-new-test"
 
-	email = 'case20@synative.com'
+	email = 'preview@synative.com'
 	updata_sql = "update users set is_examine=1,set_meal_id=4,strart_time='2018-09-05 08:39:38',expiry_time='2019-12-12 08:00:00' where email='%s'" % email
 	select_sql = "select * from captcha where email = '%s'" % email
 	"""  """
 	conn = connection(host,name,password,database)
-	res = select(conn,select_sql)
+	# res = select(conn,select_sql)
 	res = updata(conn,updata_sql)
 	print(res)
 	close(conn)

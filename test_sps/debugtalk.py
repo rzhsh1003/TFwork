@@ -8,7 +8,7 @@ from public.Log import logger
 from public.Config import Config
 from public.Chart import chart_line
 
-Test_env = "online"
+Test_env = "online1"
 Sps_test_url = "http://test.editor.synative.cn"
 # Sps_test_url = "http://dev.editor.synative.com"
 Sps_admin_url = "http://test.ve-admin.synative.cn"

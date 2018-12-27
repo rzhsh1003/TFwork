@@ -53,8 +53,9 @@ class JsonReader:
     def updata(self,name,value):
         # 如果是第一次调用data，读取yaml文档，否则直接返回之前保存的数据
         with open(self.Jsonf) as f:
-            content = json.load(f)
-            content[name] = value
+            # content = json.load(f)
+            # content[name] = value
+            content = value
         with open(self.Jsonf, 'w') as nf:
             json.dump(content, nf)
 
@@ -99,15 +100,15 @@ class ExcelReader:
 
             if self.title_line:
                 # 第1列为title,第2列为值，返回字典
-                # self._data.append(dict(zip(s.col_values(0) , s.col_values(1))))
-                title = s.row_values(0)  # 首行为title
-                for col in range(1, s.nrows):
-                    # 依次遍历其余行，与首行组成dict，拼到self._data中
-                    self._data.append(dict(zip(title, s.row_values(col))))
+                self._data.append(dict(zip(s.col_values(0) , s.col_values(1))))
+                # title = s.row_values(0)  # 首行为title
+                # for col in range(1, s.nrows):
+                #     # 依次遍历其余行，与首行组成dict，拼到self._data中
+                #     self._data.append(dict(zip(title, s.row_values(col))))
             else:
+                # return self.s
                 for col in range(0, s.nrows):
                     # 遍历所有行，拼到self._data中
-                    print (s.row_values(col))
                     self._data.append(s.row_values(col))
         return self._data
 
@@ -126,10 +127,10 @@ class ExcelReader:
 if __name__ == '__main__':
     
     # #读取json方法
-    y = '../data/test.json'
-    reader = JsonReader(y)
-    reader.updata('name','2222')
-    print(reader.data)
+    # y = '../data/test.json'
+    # reader = JsonReader(y)
+    # reader.updata('name','2222')
+    # print(reader.data)
 
 
     # #读取yml方法
@@ -138,11 +139,31 @@ if __name__ == '__main__':
     # reader.updata('abc',1234)
     # print(reader.data)
 
-    # 读取excle方法，以及字典元素遍历
-    # e = '../data/baidu.xlsx'
-    # reader = ExcelReader(e, title_line=False).data
-    # print(reader)
+    # 读取excle方法，以及字典元素遍历，生成接送json
+    e = '../data/str.xlsx'
+    excel_data = ExcelReader(e, title_line=False).data
+
+    y = '../data/en.json'
+    json_data = json.dumps(JsonReader(y).data)
+    print (json_data)
+    # for str in excel_data:
+    #     str = ''.join(str)
+    #     if str in json_data:
+    #         str1 = ''
+    #     else:
+    #         print (str+' is not found')
+
+
+    # 读取excle方法，以及字典元素遍历，生成接送json
+    # e = '../data/str.xlsx'
+    # reader = ExcelReader(e, title_line=True).data
     # print(json.dumps(reader))
+
+    # y = '../data/test.json'
+    # readerjson = JsonReader(y)
+    # readerjson.updata('name',json.dumps(reader))
+    # print(readerjson.data)
+
     # for d in reader:
     #     print (d)
     #     print(dumps(d, indent=4))

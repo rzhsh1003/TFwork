@@ -76,7 +76,7 @@
 
 - test:
     name: project copy  # ---批量复制项目
-    skipIf: ${skip_test_in_online_env()}
+    # skipIf: ${skip_test_in_online_env()}
     request:
         url: /backend/public/index.php/admin/project/copy
         method: POST
@@ -93,7 +93,7 @@
 
 - test:
     name: create user  # ---添加账号
-    # skipIf: ${skip_test_in_online_env()}
+    skipIf: ${skip_test_in_online_env()}
     request:
         url: /backend/public/index.php/admin/account_list/create
         method: POST
