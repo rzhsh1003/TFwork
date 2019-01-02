@@ -27,6 +27,7 @@ if __name__ == '__main__':
 	# get result summary
 	summary = runner.summary
 	# logger.info(summary)
+	
 	'''
 	generate html report
 	runner.gen_html_report(
