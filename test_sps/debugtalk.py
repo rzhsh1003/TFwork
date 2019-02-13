@@ -8,7 +8,7 @@ from public.Log import logger
 from public.Config import Config
 from public.Chart import chart_line
 
-Test_env = "online1"
+Test_env = "online"
 Sps_test_url = "http://test.editor.synative.cn"
 # Sps_test_url = "http://dev.editor.synative.com"
 Sps_admin_url = "http://test.ve-admin.synative.cn"
@@ -53,7 +53,7 @@ def login(email,password,captcha):
 """ 
 For locust to return to user auth ，Please note when not in use.
 """
-login_token = login(email,password,captcha)
+# login_token = login(email,password,captcha)
 
 
 """ 

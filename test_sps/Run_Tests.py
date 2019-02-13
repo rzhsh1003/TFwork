@@ -10,11 +10,10 @@ if __name__ == '__main__':
 	dot_env_path: 指定加载环境变量文件（.env）的路径，默认值为当前工作目录下的 .env 文件
 	stream
 	'''
-	# kwargs = {
- #    "failfast":False
- #    }
-	# runner = HttpRunner(**kwargs)
-	runner = HttpRunner()
+	kwargs = {
+    "failfast":False
+    }
+	runner = HttpRunner(**kwargs)
 	'''  
 	运行测试集方式
 	文件路径    runner.run("docs/data/demo-quickstart-2.yml")
