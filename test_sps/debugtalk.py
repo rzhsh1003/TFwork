@@ -8,16 +8,11 @@ from public.Log import logger
 from public.Config import Config
 from public.Chart import chart_line
 
-Test_env = "online"
-Sps_test_url = "http://test.editor.synative.cn"
+Test_env = "online1"
+Sps_test_url = "http://qa-sps.synative.cn"
 # Sps_test_url = "http://dev.editor.synative.com"
-Sps_admin_url = "http://test.ve-admin.synative.cn"
+# Sps_admin_url = "http://test.ve-admin.synative.cn"
 S3_cn = "http://s3.cn-northwest-1.amazonaws.com.cn/nx-synative-ve"
-email = "tfwork@synative.com"
-password = "123456"
-# email = "liuquanyang@altamob.com"
-# password = "qweqwe123"
-captcha = "1111"
 upload_image = "./data/image_tfwork.png"
 # upload_video = "./data/image_tfwork.png"
 upload_video = "./data/video_tfwork.mp4"

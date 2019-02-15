@@ -1,4 +1,4 @@
-from httprunner import HttpRunner
+from httprunner.api import HttpRunner
 import sys
 sys.path.append("..")
 from public.Log import logger
@@ -12,6 +12,7 @@ if __name__ == '__main__':
 	'''
 	kwargs = {
     "failfast":False
+    # "report_template":"/path/to/custom_report_template"
     }
 	runner = HttpRunner(**kwargs)
 	'''  
@@ -24,7 +25,7 @@ if __name__ == '__main__':
 	# runner.run("testcases/v1/sps_admin_api.yml")
 	
 	# get result summary
-	summary = runner.summary
+	# summary = runner.summary
 	# logger.info(summary)
 	
 	'''
@@ -36,4 +37,4 @@ if __name__ == '__main__':
 	)
 	=> reports/demo/demo-1532078874.html
 	'''
-	runner.gen_html_report()
+	# runner.gen_html_report()

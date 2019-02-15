@@ -1,7 +1,7 @@
 - config:
     name: Sps Api Test
+    base_url: http://qa-sps.synative.cn
     request:
-        base_url: $Sps_test_url
         headers:
             Content-Type: application/json
     variables:
@@ -11,6 +11,9 @@
         # app_id需要在app_video有对应video_rid的记录
         
         # ---email_register用于email_code、register、send_mail
+        - email: tfwork@synative.com
+        - password: 123456
+        - captcha: 1111
         - email_register: tf@syantive.com
         # ---password_register用于email_code、register
         - password_register: "123456"
@@ -22,8 +25,12 @@
         - video_rid: 5N93bbTdJ8x2Lu8Y04ewUeyZhD4RcCJ
         #  --video_uuid用于check_video_fps（upload video返回的有uuid）
         # - video_uuid: 6B4F8E47-CDDD-039F-F3E8-6AF7B9CE7005
+        # - upload_image、upload_video、upload_boundary用于upload
+        - upload_image: ./data/image_tfwork.png
+        - upload_video: ./data/video_tfwork.mp4
+        - upload_boundary: ------WebKitFormBoundaryjFbWswNdpuy1IeKq
         # ---video_url用于convert_base64、video_cover
-        - video_url: $S3_cn/test/videos/2018-11-13/180/1805bea2c9be18a49.58133122_fps25.mp4
+        - video_url: http://s3.cn-northwest-1.amazonaws.com.cn/nx-synative-ve/test/videos/2018-11-13/180/1805bea2c9be18a49.58133122_fps25.mp4
     # parameters: 
         # ---email用于login、forget、account_refresh、user_info
         # ---password用于login、forget、user_info
@@ -53,6 +60,7 @@
             email: $email
             password: $password
             captcha: $captcha
+            close_captcha: haode
     extract:
         - access_token: content.data.access_token
     validate:

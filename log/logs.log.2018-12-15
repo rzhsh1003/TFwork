@@ -1,8 +1,0 @@
-[INFO - 2018-12-15 18:13:07,394 - TFwork] : 第35次上传视频成功，用时：5416ms
-[INFO - 2018-12-15 18:13:07,397 - TFwork] : Upload url: http://s3.cn-northwest-1.amazonaws.com.cn/nx-synative-ve/test/videos/2018-12-15/180/1805c14d3b0cc6c02.85500446_fps25.mp4
-[INFO - 2018-12-15 18:16:08,606 - TFwork] : 第36次上传视频成功，用时：10183ms
-[INFO - 2018-12-15 18:16:08,607 - TFwork] : Upload url: http://s3.cn-northwest-1.amazonaws.com.cn/nx-synative-ve/test/videos/2018-12-15/180/1805c14d465415ee8.31733721_fps25.mp4
-[INFO - 2018-12-15 18:16:19,159 - TFwork] : 第37次上传视频成功，用时：10191ms
-[INFO - 2018-12-15 18:16:19,159 - TFwork] : Upload url: http://s3.cn-northwest-1.amazonaws.com.cn/nx-synative-ve/test/videos/2018-12-15/180/1805c14d46f38aba0.35698427_fps25.mp4
-[INFO - 2018-12-15 18:16:29,628 - TFwork] : 第7次导出成功，用时：5109ms
-[INFO - 2018-12-15 18:16:29,628 - TFwork] : Export zip url: http://s3.cn-northwest-1.amazonaws.com.cn/nx-synative-ve/test/zips/2018-12-15/180/3791-2018-12-15-10-16-24-2814.zip
