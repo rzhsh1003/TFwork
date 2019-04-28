@@ -25,7 +25,8 @@ class SpsTasks(TaskSet):
         jsonstring = {
                     "email": self.email,
                     "password": self.password,
-                    "captcha": self.captcha
+                    "captcha": self.captcha,
+                    "close_captcha":"haode"
                 }
         # login_url = 'http://test.editor.synative.cn/backend/public/index.php/api/login'
         # response = requests.request("POST", login_url, headers=headers, json=jsonstring)
@@ -101,7 +102,7 @@ class SpsTasks(TaskSet):
         print('第%s次上传视频用时：' % str(self.n) + str(endtime-starttime))
 
 class SpsLocust(HttpLocust):
-    host = "http://test.editor.synative.cn"
+    host = "http://qa-sps.synative.cn"
     task_set = SpsTasks
     min_wait = 1000
     max_wait = 5000

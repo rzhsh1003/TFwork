@@ -1,0 +1,102 @@
+- config:
+    name: Sps App Api Test
+    base_url: https://sps.synative.cn
+    request:
+        headers:
+            Content-Type: application/json
+    variables:
+        # ---app_id用于find_zip_newest
+        - email: renzhansheng@synative.com
+        - passwd: 123456
+        - app_id: 4074
+    # parameters:
+    #     - email-passwd:
+    #         - ["tfwork@synative.com", "123456"]
+
+- test:
+    name: app_login  # ---App登录
+    # skipIf: ${skip_test_in_online_env()}
+    request:
+        url: /backend/public/index.php/user/login
+        method: POST
+        json:
+            email: $email
+            passwd: $passwd
+    extract:
+        - auth_token: content.data.token
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]
+        - eq: ["content.data.token", $auth_token]
+
+- test:
+    name: Video apps  # ---项目列表
+    # skipIf: ${skip_test_in_online_env()}
+    request:
+        url: /backend/public/index.php/video/apps
+        method: POST
+        headers:
+            auth-token: $auth_token
+        json:
+            pageSize: 1000
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]
+        - len_gt: ["content.data", 0]
+
+- test:
+    name: find_zip_newest  # ---项目详情
+    skipIf: ${skip_test_in_online_env()}
+    request:
+        url: /backend/public/index.php/video/find_zip_newest
+        method: POST
+        headers:
+            auth-token: $auth_token
+        json:
+            app_id: $app_id
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]
+        - eq: ["content.data.id", $app_id]
+
+- test:
+    name: export  # ---app导出接口
+    skipIf: ${skip_test_in_online_env()}
+    request:
+        url: /backend/public/index.php/video/export
+        method: POST
+        headers:
+            auth-token: $auth_token
+        json:
+            app_id: $app_id
+            device: mobile
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]
+
+- test:
+    name: check_zip  # ---查看导出包状态
+    skipIf: ${skip_test_in_online_env()}
+    request:
+        url: /backend/public/index.php/video/check_zip
+        method: POST
+        headers:
+            auth-token: $auth_token
+        json:
+            app_id: $app_id
+            # export_id: mobile
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]
+
+- test:
+    name: logout  # ---注销
+    # skipIf: ${skip_test_in_online_env()}
+    request:
+        url: /backend/public/index.php/user/logout
+        method: POST
+        headers:
+            auth-token: $auth_token
+    validate:
+        - eq: ["status_code", 200]
+        - eq: ["content.message", success]

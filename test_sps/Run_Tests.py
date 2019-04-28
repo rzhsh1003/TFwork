@@ -15,14 +15,14 @@ if __name__ == '__main__':
     # "report_template":"/path/to/custom_report_template"
     }
 	runner = HttpRunner(**kwargs)
-	'''  
+	'''
 	运行测试集方式
 	文件路径    runner.run("docs/data/demo-quickstart-2.yml")
 	文件夹路径  runner.run("docs/data/")
 	混合情况    runner.run(["docs/data/", "files/demo-quickstart-2.yml"]) 
 	'''	
-	runner.run("testcases/v1/sps_api.yml")
-	# runner.run("testcases/v1/sps_admin_api.yml")
+	runner.run("testcases/v2/sps_api.yml")
+	# runner.run("testcases/v2/sps_app_api.yml")
 	
 	# get result summary
 	# summary = runner.summary

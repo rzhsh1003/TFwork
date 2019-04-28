@@ -8,10 +8,8 @@ from public.Log import logger
 from public.Config import Config
 from public.Chart import chart_line
 
-Test_env = "online1"
+Test_env = "online"
 Sps_test_url = "http://qa-sps.synative.cn"
-# Sps_test_url = "http://dev.editor.synative.com"
-# Sps_admin_url = "http://test.ve-admin.synative.cn"
 S3_cn = "http://s3.cn-northwest-1.amazonaws.com.cn/nx-synative-ve"
 upload_image = "./data/image_tfwork.png"
 # upload_video = "./data/image_tfwork.png"
@@ -33,12 +31,13 @@ def logger_info(msg):
 """ 
 For login to return to user auth 
 """
-def login(email,password,captcha):
+def login():
     login_url = Sps_test_url+"/backend/public/index.php/api/login"
     jsonstring = {
-                "email": email,
-                "password": password,
-                "captcha": captcha
+                "email": "tfwork@synative.com",
+                "password": "123456",
+                "captcha": "1234",
+                "close_captcha":"haode"
             }
     response = requests.request("POST", login_url, json=jsonstring)
     results = json.loads(response.text)
